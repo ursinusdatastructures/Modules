@@ -5,7 +5,7 @@ title: "CS174: Module 11: ADTs / Linked Map"
 excerpt: "CS174: Module 11: ADTs / Linked Map"
 
 info:
-  next: "./Exercise1"
+  next: "./Video2"
 ---
 
 Please watch the video below, and click the next button once you have finished
