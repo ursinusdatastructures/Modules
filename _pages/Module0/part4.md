@@ -7,6 +7,7 @@ excerpt: "CS 371: Module 0 Warmup"
 info:
   prev: "./Part3"
   next: "./Part5"
+  comments: "true"
 ---
 <p>
 Please take a moment to register for our two Discord channels
