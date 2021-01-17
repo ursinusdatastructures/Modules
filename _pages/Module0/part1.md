@@ -6,7 +6,7 @@ excerpt: "CS 371: Module 0 Warmup"
 
 info:
   next: "./Part2"
-  comments: true
+  comments: "true"
 ---
 
 Please watch the video below, and click the next button once you have finished
