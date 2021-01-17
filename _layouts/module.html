@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/processing.min.js"></script>
@@ -35,7 +34,7 @@ comments: true
 <div id="main" role="main"> 
   <div class="archive">
     <h1 class="page__title">{{ page.title }}</h1>
-        Developed by <a href="https://www.ursinus.edu/live/profiles/4502-christopher-tralie">Professor Tralie</a> and <a href="https://www.ursinus.edu/live/profiles/5313-william-mongan">Professor Mongan</a>.
+        Module engine developed by <a href="https://www.ursinus.edu/live/profiles/4502-christopher-tralie">Professor Tralie</a> and <a href="https://www.ursinus.edu/live/profiles/5313-william-mongan">Professor Mongan</a>.
         
         {% if page.info.prev or page.info.next %}
         <p>
@@ -62,6 +61,7 @@ comments: true
   </div>
 </div>
 
+{% if page.info.comments %}
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -80,6 +80,7 @@ comments: true
     (d.head || d.body).appendChild(s);
     })();
 </script>
+{% endif %}
 
 
 <!-- Scripts -->

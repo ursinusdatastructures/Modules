@@ -1,11 +1,12 @@
 ---
 layout: module
-permalink: /Module0/Video1
-title: "CS174: Module 11: ADTs / Linked Map"
-excerpt: "CS174: Module 11: ADTs / Linked Map"
+permalink: /Module0/Part1
+title: "CS 371: Module 0 Warmup"
+excerpt: "CS 371: Module 0 Warmup"
 
 info:
-  next: "./Video2"
+  next: "./Part2"
+  comments: true
 ---
 
 Please watch the video below, and click the next button once you have finished
