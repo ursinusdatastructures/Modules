@@ -9,8 +9,7 @@ info:
   comments: "true"
 ---
 
-Please watch the video below, and click the next button once you have finished
+Please watch the video below that introduces the class and class policies, and click the next button once you have finished.  Several warm-up activities will follow
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6vFV-kMUsE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h3W8RQhHp4w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-\\[ x = 2^5 \\]
