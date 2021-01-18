@@ -19,7 +19,7 @@ and open the <code>test.py</code> file that you just downloaded.  Finally, click
 
 <img src = "../images/Module0/Run.png">
 <BR><BR>
-Then, <b>send me a screenshot of the image that pops up in the console to the right of Spyder, using a private message on Microsoft Teams</b>
+Then, <b>send me a screenshot of the image that pops up in the console or in the plots pane to the right of Spyder, using a private message on Microsoft Teams</b>
 </p>
 
 <p>
