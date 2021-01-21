@@ -13,8 +13,8 @@ info:
   points: 1.5
   instructions: "<p>Just one more exercise in this module!  Chad is a big baby when it comes to going outside.  He only goes outside if it's more than 60 degrees Fahrenheit but less than 80 degrees Fahrenheit.  Write a method called <code>goes_outside</code> that takes one parameter for the temperature and returns <code>True</code> if Chad is willing to go outside and <code>False</code> otherwise."
   goals:
-    - To use slicing notation in python
-    - To apply string concatenation in python
+    - To define methods in python
+    - To implement boolean expressions and if statements in python
     
 processor:  
   correctfeedback: "Correct!!" 
