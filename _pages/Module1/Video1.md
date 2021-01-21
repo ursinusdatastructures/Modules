@@ -11,6 +11,7 @@ info:
 
 <p>
 Please watch the video below, and click the <code>Next</code> button to continue when you're finished
+</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8d4TJLAPk2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
