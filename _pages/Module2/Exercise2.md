@@ -12,10 +12,10 @@ info:
   prev: "./Video2"
   next: "./Video3"
   points: 1.5
-  instructions: "<p>Create a static variable in the <code>Person</code> class called <code>num_people</code> which starts off as 0 and increments every time a new object of type <code>Person</code> is constructed.</p>"
+  instructions: "<p>Define an instance method, <code>reset_birthday</code>, which resets the age of a <code>Person</code> object to be 0.</p>"
   goals:
     - Work with classes and objects in python
-    - Define and manipulate static variables in python classes
+    - Implement object instance methods in python
     
 processor:  
   correctfeedback: "Correct!!" 
@@ -44,7 +44,6 @@ files:
               def __str__(self):
                   return "Person name is {}, age is {}".format(self._name, self._age)
 
-
   - filename: "Test Code Block"
     ismain: true
     name: main
@@ -53,9 +52,9 @@ files:
     code: |
         # Run some tests on the method
         chris = Person("chris", 31)
-        celia = Person("celia", 30)
-        james = Person("james", 23)
-        brock = Person("brock", 80)
-        print(Person.num_people)
+        chris.reset_birthday()
+        for i in range(32):
+          chris.celebrate_birthday()
+        print(chris)
         
 ---
