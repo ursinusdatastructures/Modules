@@ -240,8 +240,10 @@ def save_audio_js(arr, sr):
             submitcode = '';
             
             for (var i in editors) {
-                submitcode += editors[i].getValue();
-                submitcode += "\n\n";
+                if (i > 0) { // Skip utility code
+                    submitcode += editors[i].getValue();
+                    submitcode += "\n\n";
+                }
             }
             
             var xhttp = new XMLHttpRequest();
