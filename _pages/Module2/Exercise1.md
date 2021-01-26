@@ -72,7 +72,6 @@ files:
     isreadonly: true
     isvisible: true
     code: |
-        # Use matplotlib's histogram function to plot a histogram
         plt.figure(figsize=(6, 4), dpi=100)
         plt.hist(trials)
         plt.xlabel("Number of Flips")
