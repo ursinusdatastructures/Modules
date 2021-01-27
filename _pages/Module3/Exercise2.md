@@ -36,6 +36,7 @@ files:
     ismain: false
     isreadonly: false
     isvisible: true
+    height: 750
     code: | 
         # Single list, each element is the ID of the corresponding object
         class MyDisjointSet:

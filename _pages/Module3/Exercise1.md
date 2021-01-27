@@ -36,6 +36,7 @@ files:
     ismain: false
     isreadonly: false
     isvisible: true
+    height: 800
     code: | 
         # List of lists, where each inner list corresponds to a bubble
         class MyDisjointSet:

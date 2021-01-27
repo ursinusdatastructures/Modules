@@ -37,7 +37,11 @@ mynetid: ctralie
     {% if file.isvisible == true %}
     position: relative;
     width: 700px;
+    {% if file.height %}
+    height: {{file.height}}px;
+    {% else %}
     height: 250px;
+    {% endif %}
     {% else %}
     position: fixed;
     bottom: 10px;
