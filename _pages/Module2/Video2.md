@@ -19,7 +19,7 @@ Please watch the video below, and click the <code>Next</code> button to continue
 <h2>Notes</h2>
 
 <ul>
-<li>Every instance method of a class must take <code>self</code> as its first parameter.  <code>self</code> is akin to <code>this</code> in Java or C++</li>
+<li>Every instance method of a class must take <code>self</code> as its first parameter.  <code>self</code> is akin to <code>this</code> in Java or C++.  Then, when referring to instance methods <b>and</b> instance variables, you must always do so with <code>self.</code></li>
 <li>The constructor in a class is defined as <code>__init__(self, ...)</code></li>
 <li>A "to string" method can be defined with <code>__str__(self)</code></li>
 <li>There are no private or protected variables; everything is public.  The convention is that variables that start with an underscore are private variables</li>
