@@ -40,7 +40,7 @@ files:
         def has_duplicates_sorted(arr):
             arr = sorted(arr)
             duplicate = False
-            ## TODO: Change duplicate to 2 if there's
+            ## TODO: Change duplicate to True if there's
             ## a duplicate element in the array
             return duplicate
 
