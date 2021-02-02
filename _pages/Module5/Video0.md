@@ -18,4 +18,4 @@ Please watch the video below, and click the <code>Next</code> button to continue
 <h2>Notes</h2>
 
 
-<iframe src="../images/Module5/ClassSolution.html" width="800" height="2300"></iframe>
+<iframe src="../images/Module5/ClassSolutions.html" width="800" height="2300"></iframe>
