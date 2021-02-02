@@ -6,6 +6,7 @@ excerpt: "CS 371: Module 5: Class Exercise Answers"
 
 info:
   comments: "true"
+  next: "./Video1"
 ---
 
 <p>
