@@ -4,14 +4,14 @@ permalink: "Module6/Exercise1"
 title: "CS 371: Module 6: Exercise 1"
 excerpt: "CS 371: Module 6: Exercise 1"
 canvasasmtid: "112492"
-canvaspoints: "1"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1"
   next: "./Exercise2"
-  points: 1
+  points: 1.5
   instructions: "<p>Fill in the <code>remove_last</code> method of the <code>ArrayList</code> data structure.  This should run in O(1) time.</p>"
   goals:
     - To implement data structures in python using object-oriented paradigms
