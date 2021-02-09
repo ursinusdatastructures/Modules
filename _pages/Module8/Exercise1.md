@@ -9,7 +9,7 @@ canvashalftries: 5
 
 info:
   comments: "true"
-  next: "./Video1"
+  prev: "./Video2"
   points: 1.5
   instructions: "<p>Fill in the count_characters method to create a map where the keys are the characters and the values are the number of times the characters occur in the string.</p>"
   goals:
