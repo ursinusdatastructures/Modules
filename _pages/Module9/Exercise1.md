@@ -22,7 +22,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("441.2205.11025")
+    pos.includes("1.3.7.15.31.63.127.255.511")
   incorrectchecks:
     - incorrectcheck: |
         pos.includes("0.0.0")
@@ -51,7 +51,7 @@ files:
             Number of optimal moves needed to move discs
             """
             res = 1
-            if h > 1:
+            if N > 1:
                 ## TODO: Fill this in
             return res
 
