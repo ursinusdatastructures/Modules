@@ -346,7 +346,7 @@ def save_audio_js(arr, sr):
                         audioDOM.style.display = "none";
                     }
                     feedback.setValue(resultStr);
-                    if (doingFigure && !doingAudio) {
+                    if (!doingAudio) {
                         resolve();
                     }
                 });
