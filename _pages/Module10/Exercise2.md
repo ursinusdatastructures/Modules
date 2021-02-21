@@ -55,10 +55,10 @@ files:
                       res = A(m-1, 1, counts, memory)
                       memory[m-1, 1] = res
               else:
-                  ## TODO: Add memoization here
-                  res1 = A(m, n-1, counts, memory)
-                  ## TODO: Add memoization here
-                  res = A(m-1, res1, counts, memory)
+                  ## TODO: Add memoization here for A(m, n-1)
+                  inner = A(m, n-1, counts, memory)
+                  ## TODO: Add memoization here for A(m-1, inner)
+                  res = A(m-1, inner, counts, memory)
               return res
 
 
