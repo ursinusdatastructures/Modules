@@ -69,7 +69,6 @@ files:
                       cost3 = 0 # Check table[i-1, j-1] (+ 1 if s1[i-1] != s2[j-1])
                       # Store table[i, j] as the min of the above possibilities
               return int(table[-1, -1])
-          edit("school", "fools")
 
 
 
