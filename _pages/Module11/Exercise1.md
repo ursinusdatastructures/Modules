@@ -4,13 +4,13 @@ permalink: "Module11/Exercise1"
 title: "CS 371: Module 11: Exercise 1"
 excerpt: "CS 371: Module 11: Exercise 1"
 canvasasmtid: "114325"
-canvaspoints: "1.5"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
-  points: 1.5
+  points: 2
   instructions: "<p>The code below includes the iterative dynamic programming approach we talked about for making change, which includes memory of the optimal coin choices to make at each step.  Complete the <code>get_change_coins</code> method to recursively backtrace and enumerate all possibilities of making change optimally.  The base case has already been taken care of, you just need to initiate recursion on all possible coins to choose at a particular step.  To show the algorithm off a little more, the test cases include a 3 cent coin, which leads to more than one possibility on some of the cases.</p>"
   goals:
     - Recursively backtrace optimal solutions in dynamic programming using stacks
