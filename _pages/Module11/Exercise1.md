@@ -28,10 +28,10 @@ processor:
         pos.includes("6:set().41:set().94:set()")
       feedback: "Try again.  It looks like you aren't initiating the recursive calls"
 files:
-  - filename: "Min Coins Needed (Provided)"
-    name: mincoinsneededdyn
+  - filename: "Get Change Backtracing (Student Code)"
+    name: mincoinsbacktrace
     ismain: false
-    isreadonly: true
+    isreadonly: false
     isvisible: true
     height: 680
     code: | 
@@ -76,10 +76,10 @@ files:
                       pass
               
 
-  - filename: "Min Coins Backtracing (Student Code)"
-    name: mincoinsbacktrace
+  - filename: "Min Coins Needed (Provided)"
+    name: mincoinsneededdyn
     ismain: false
-    isreadonly: false
+    isreadonly: true
     isvisible: true
     height: 620
     code: | 
