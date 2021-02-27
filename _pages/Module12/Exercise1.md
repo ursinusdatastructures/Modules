@@ -9,7 +9,6 @@ canvashalftries: 5
 
 info:
   comments: "true"
-  next: "./Video1.html" 
   points: 3
   instructions: "Complete the <a href = \"http://www.ctralie.com/Teaching/CS371_S2021/ClassExercises/Week6/Week6_SeamCarving/\">seam carving exercise</a> from class by filling in the backtracing code at the end of the <code>energy_img_seam</code> method to extract the optimal seam, using the values in the <code>choices</code> array to figure out where to step from row to row.  This python code is a bit slow in the browser, so you may want to debug this on your computer in Spyder first before submitting it here.  <a href = \"https://github.com/Ursinus-CS371-S2021/Week6_SeamCarving/archive/main.zip\">Click here</a> to download the starter code if you have not already."
   packages: "numpy,matplotlib,scipy"
