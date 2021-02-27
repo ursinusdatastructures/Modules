@@ -190,11 +190,18 @@ def save_audio_js(arr, sr):
         let audioElem = document.getElementById("pyaudio");
 
         var editors = new Array();
+        let editorNoSend = [];
 
         // Add hidden utilities code first
         editors.push(ace.edit("utilEditor"));
+        editorNoSend.push(true);
 
         {% for file in page.files %}
+        {% if file.nosend == true %}
+            editorNoSend.push(true);
+        {% else %}
+            editorNoSend.push(false);
+        {% endif %}
         {% if file.ismain == true %}
         let mainEditor = ace.edit("mainEditor");
         mainEditor.setFontSize(16);
@@ -244,7 +251,7 @@ def save_audio_js(arr, sr):
             submitcode = '';
             
             for (var i in editors) {
-                if (i > 0) { // Skip utility code
+                if (!editorNoSend[i]) {
                     submitcode += editors[i].getValue();
                     submitcode += "\n\n";
                 }
