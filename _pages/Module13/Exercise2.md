@@ -82,8 +82,8 @@ files:
               j = N-1
               seq = ""
               while not (i == 0 and j == 0):
-                  ## TODO: Fill this in. If s1[i] == s1[j], add seq[i]
-                  ## before what's currently in seq.
+                  ## TODO: Fill this in. If s1[i] == s2[j], add s1[i] (or s2[j])
+                  ## to before what's currently in seq.
                   ## Then, regardless, change i and j based on choices[i, j]
                   pass
               if s1[0] == s2[0]:
