@@ -11,11 +11,15 @@ info:
 ---
 
 <p>
-Please watch the video below, and click the next button when you are finished.
+Please watch the two videos below, and click the next button when you are finished.
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FExCTAVOUUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<BR><BR>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WrbO-4m_NUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h2>Notes</h2>
 
-<iframe src = "../images/Module13/LCSBacktrace.html" width="700" height="1400">
+<iframe src = "../images/Module13/LCSBacktrace.html" width="700" height="2200">
