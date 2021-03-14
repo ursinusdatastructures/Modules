@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Video2
-title: "CS 371: Module 14: Recursively Enumerating Permutations"
-excerpt: "CS 371: Module 14: Recursively Enumerating Permutations"
+title: "CS 371: Module 14: Brute Force Sorting"
+excerpt: "CS 371: Module 14: Brute Force Sorting"
 
 info:
   comments: "true"
