@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module15/Exercise3
-title: "CS 371: Module 15: Stability of Sorts"
-excerpt: "CS 371: Module 15: Stability of Sorts"
+title: "CS 371: Module 15: Lower Bounding Comparison Sort Complexity"
+excerpt: "CS 371: Module 15: Lower Bounding Comparison Sort Complexity"
 
 info:
   comments: "true"
