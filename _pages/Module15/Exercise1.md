@@ -36,8 +36,8 @@ processor:
         pos.includes("[6, 13, 21, 44, 51, 66, 69, 0].[1, 15, 0, 24, 29, 0]")
       feedback: "Try again.  It looks like you are copying leftover elements from the second half, but not from the first half."
 files:
-  - filename: "BruteSort"
-    name: brutesort
+  - filename: "Merge"
+    name: mergesort
     ismain: false
     isreadonly: false
     isvisible: true
