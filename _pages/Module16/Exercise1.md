@@ -85,8 +85,8 @@ files:
                             counts[d] += 1
                         
                         # Create an array "csum," where csum[d] holds
-                        # the position in the staging array where a number
-                        # with digit d in the place we're considering should be placed
+                        # the position in the staging array where the next number
+                        # with digit d should be placed in the staging area.
                         # For instance, if there are 5 numbers with digit 0 and
                         # 3 numbers with digit 1, the first number with a digit 2
                         # should be placed at index 8
@@ -97,8 +97,8 @@ files:
                         ## Loop through arr.  For each element x, get the 
                         ## digit d at the current place, put that element
                         ## in the staging area according to csum[d], and
-                        ## then increment csum[d] so the next element with
-                        ## digit d can be appropriately placed
+                        ## then increment csum[d] so we know where to place
+                        ## the next element with digit d
                         for x in arr:
                             d = get_base10(x, place)
                             ## TODO: Finish this
