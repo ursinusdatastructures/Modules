@@ -9,8 +9,8 @@ canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video1"
-  next: "./Video2"
+  prev: "./Video2"
+  next: "./Video3"
   points: 1.5
   instructions: "Fill in the <code>decode</code> method of the <code>BCBTree</code> class to convert a binary string back into its original representation according to the code stored in the tree."
   goals:
