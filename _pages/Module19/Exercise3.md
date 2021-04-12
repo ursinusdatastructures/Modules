@@ -4,13 +4,13 @@ permalink: "Module19/Exercise3"
 title: "CS 371: Module 19: Exercise 3: Building Huffman Trees"
 excerpt: "CS 371: Module 19: Exercise 3: Building Huffman Trees"
 canvasasmtid: "116902"
-canvaspoints: "1.5"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video3"
-  points: 1.5
+  points: 2
   instructions: "Fill in the <code>HuffmanTree</code> constructor by using a priority queue to merge nodes together with smaller counts first."
   goals:
     - Manipulate nodes in a huffman tree tree

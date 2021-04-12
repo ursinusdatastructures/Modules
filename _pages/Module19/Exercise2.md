@@ -4,14 +4,14 @@ permalink: "Module19/Exercise2"
 title: "CS 371: Module 19: Exercise 2: Decoding from BCB Trees"
 excerpt: "CS 371: Module 19: Exercise 2: Decoding from BCB Trees"
 canvasasmtid: "116887"
-canvaspoints: "1.5"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
   next: "./Video3"
-  points: 1.5
+  points: 2
   instructions: "Fill in the <code>decode</code> method of the <code>BCBTree</code> class to convert a binary string back into its original representation according to the code stored in the tree."
   goals:
     - Manipulate nodes in a binary codebook tree
