@@ -68,15 +68,12 @@ files:
                   if self.root:
                       # A node that stores where we are as we're walking the tree
                       node = self.root
-                      # A binary string we're building as we walk from the root to a leaf
-                      bstr = "" 
                       for b in s: # Loop through every 1/0 in the encoded string
                           if node.key:
                               ## TODO: Fill this in
                               ## Add on this node's character to ret
-                              ## then go back to the root and reset bstr
+                              ## then go back to the root
                               pass
-                          bstr += b
                           ## TODO: Fill this in
                           ## Move node to the left or right depending on b
                       if node.key:
