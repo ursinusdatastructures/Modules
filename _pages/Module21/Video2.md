@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module21/Video2
-title: "CS 371: Module 19: Encoding And Decoding with Binary Codebook Trees"
-excerpt: "CS 371: Module 19: Encoding And Decoding with Binary Codebook Trees"
+title: "CS 371: Module 21: Kruskal's Algorithm"
+excerpt: "CS 371: Module 21: Kruskal's Algorithm"
 
 info:
   prev: "./Exercise1"
