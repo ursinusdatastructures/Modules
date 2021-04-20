@@ -6,7 +6,7 @@ excerpt: "CS 371: Module 21: Kruskal Proof of Correctness"
 
 info:
   prev: "./Video2"
-  next: "./Video3b"
+  next: "./Video4"
 ---
 
 Please watch the video below, and click next when you are ready.
