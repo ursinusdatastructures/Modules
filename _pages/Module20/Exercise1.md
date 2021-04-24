@@ -13,8 +13,7 @@ info:
   points: 1.5
   instructions: "Study the code below, which implements a vanilla version of Dijkstra's algorithm and remembers the node that came before, <code>node.prev</code> when <code>node</code> first comes out of the queue.  Your job will be to fill in the method <code>get_path</code> to extract a shortest path from the starting node to a particular node using the <code>prev</code> references stored in the nodes after running Dijkstra's algorithm.  Most of this code is completed already, but you have to add on the current node and move to the previous node before the next iteration.  Overall, this is a lot like backtracing in dynamic time warping."
   goals:
-    - Use union and find operations of a disjoint set data structure
-    - Create spanning trees
+    - Implement backtracing for shortest paths after running Dijkstra's algorithm
     
 processor:  
   correctfeedback: "Correct!!" 
