@@ -1,49 +1,37 @@
 ---
 layout: exercise_python
-permalink: "HW6/Exercise1"
-title: "CS 371: Homework 6: Rush Hour Neighbor Enumeration"
-excerpt: "CS 371: Homework 6: Rush Hour Graph Neighbor Enumeration"
-canvasasmtid: "117730"
-canvaspoints: "3"
+permalink: "HW6/Exercise2"
+title: "CS 371: Homework 6: Rush Hour Solution"
+excerpt: "CS 371: Homework 6: Rush Hour Graph Solution"
+canvasasmtid: "117733"
+canvaspoints: "5"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video1"
-  next: "./Video2"
-  points: 3
-  instructions: "Finish the <code>get_next_moves</code> method so that it adds neighboring state nodes for cars that move to the left (j-1) and up (i-1).  Be sure that the grid cells where you're trying to move the cars are unoccupied (have a value of -1 in the grid).  Also be sure that they remain in bounds.  You should hang onto the code you write here, because you'll need it in the next part"
+  prev: "./Video2"
+  next: "./Video3"
+  points: 5
+  instructions: "Copy in your code from before for <code>get_next_moves</code>, and then fill in the <code>solve_puzzle</code> method to run breadth-first search starting at this state and going until a goal state is reached.  Then, trace back from the goal state to the beginning, and return that list.  The tester will use this code to solve the hard puzzle given on the <a href = "http://www.ctralie.com/Teaching/CS371_S2021/ClassExercises/Week1/rushhour-master/">first day of class</a>, and the next page will show an animation of that solution."
   goals:
-    - Construct nodes in an abstract representation of a graph as a state space
+    - Implement breadth-first search in an abstract graph
+    - Backtrace from a goal state in breadth-first search to enumerate a sequence of moves to a solution
     
 processor:  
   correctfeedback: "Correct!!" 
-  incorrectfeedback: "Try again"
+  incorrectfeedback: "Try again. Hint: Your optimal solution should have 25 steps in it (the first state, plus 24 moves), and the last state in the list should be the goal."
   submitformlink: false
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-        pos.includes("-1-1-1-1-11000-151-1-1665122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15-1000-151-1-166-1122-1-1-1143333-14-1-1-1-1-1.-1-1-1-151-100051-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-1-166122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-11-122-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14-133334-1-1-1-1-1.-1-1-1-151000-151-166-1-1122-1-1-1-143333-14-1-1-1-1-1.")
-  incorrectchecks:
-    - incorrectcheck: |
-        pos.includes("-1-1-1-1-11000-151-1-1665122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15-1000-151-1-166-1122-1-1-1143333-14-1-1-1-1-1.-1-1-1-151-100051-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-1-166122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-11-122-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14-133334-1-1-1-1-1.")
-      feedback: "Try again.  It looks like you're still only adding moves of the cars down or to the right"
-    - incorrectcheck: |
-        pos.includes("-1-1-1-1-11000-151-1-1665122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15-1000-151-1-166-1122-1-1-1143333-14-1-1-1-1-1.-1-1-1-151-100051-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-1-166122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-11-122-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14-133334-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14333-1-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1142-1-1-1-143333-1-1-1-1-1-1-1.-1-1-1-151000-151-166-1-1122-1-1-1-143333-14-1-1-1-1-1.")
-      feedback: "Try again.  Be sure that the grid cells where you're trying to move the car are unoccupied"
-    - incorrectcheck: |
-        pos.includes("-1-1-1-1-11000-151-1-1665122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15-1000-151-1-166-1122-1-1-1143333-14-1-1-1-1-1.-1-1-1-151-100051-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-1-11-1-166-1122-1-1-1-143333-14-1-1-15-1.-1-1-1-151000-151-1-1-166122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1-122-1-1-1-143333-14-1-1-1-11.-1-1-1-151000-151-1-166-11-122-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-112-1-1-1-1243333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14-133334-1-1-1-1-1.-1-1-1-151000-151-166-1-1122-1-1-1-143333-14-1-1-1-1-1.")
-      feedback: "Try again.  Be sure that the car is in bounds"
-    - incorrectcheck: |
-        pos.includes("-1-1-1-1-11000-151-1-1665122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15-1000-151-1-166-1122-1-1-1143333-14-1-1-1-1-1.-1-1-1-151-100051-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-15100-1-151-1-166-1122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-1-11-1-166-1122-1-1-1-143333-14-1-1-15-1.-1-1-1-151000-151-1-1-166122-1-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1-122-1-1-1-143333-14-1-1-1-11.-1-1-1-151000-151-1-166-11-122-1-1-143333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-112-1-1-1-1243333-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14-133334-1-1-1-1-1.-1-1-1-151000-151-1-166-1122-1-1-1-14333-1-14-1-1-1-1-1.-1-1-1-151000-151-1-166-1142-1-1-1-143333-1-1-1-1-1-1-1.-1-1-1-151000-151-166-1-1122-1-1-1-143333-14-1-1-1-1-1.")
-      feedback: "Try again.  Be sure that the car is in bounds and the grid cells where you're trying to move the car are unoccupied"
+        pos.includes("25.True")
 files:
   - filename: "Rush Hour Code"
     name: rushhour
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 2900
+    height: 3500
     code: | 
             class Car:
                 def __init__(self, i, j, L, horiz):
@@ -195,8 +183,40 @@ files:
                             move.cars[idx].j += dj
                             moves.append(move)
                         # Move left/up
-                        ## TODO: Fill this in for part 1
+                        ## TODO: Copy your part 1 code in here
                     return moves
+                
+                def solve_puzzle(self):
+                    start = self
+                    from collections import deque
+                    touched = set([])
+                    visited = set([])
+                    touched.add(start.get_state_hashable())
+                    queue = deque()
+                    queue.append(start)
+                    finished = False
+                    end = None
+                    while len(queue) > 0 and not finished:
+                        state = queue.popleft()
+                        visited.add(state.get_state_hashable())
+                        if state.reached_goal():
+                            end = state
+                            finished = True
+                        else:
+                            ## TODO: Fill this in.  Loop through all of the next
+                            ## possible moves and see if they have been touched yet
+                            ## If not, touch them, and add them to the back of the queue
+                            pass
+                    
+                    ## TODO: Backtrace from the end node to show a solution path
+                    ## and return a list of states with the solution from start
+                    ## to finish
+                    states = [end]
+                    node = end
+
+                    ## TODO: Fill this in
+
+                    return states
 
 
   - filename: "Test Code Block"
@@ -205,16 +225,18 @@ files:
     isreadonly: true
     isvisible: true
     code: |
-        state = State()
-        state.N = 6
-        state.cars.append(Car(1, 0, 3, True))
-        state.cars.append(Car(0, 5, 3, False))
-        state.cars.append(Car(3, 0, 2, True))
-        state.cars.append(Car(4, 1, 4, True))
-        state.cars.append(Car(4, 0, 2, False))
-        state.cars.append(Car(0, 4, 2, False))
-        state.cars.append(Car(2, 2, 2, True))
-        for move in sorted([m.get_state_hashable() for m in state.get_next_moves()]):
-            print(move, end='.')
+            start = State()
+            start.N = 6
+            start.goal = [2, 5]
+            start.cars.append(Car(2, 0, 2, True))
+            start.cars.append(Car(4, 0, 3, True))
+            start.cars.append(Car(1, 2, 3, False))
+            start.cars.append(Car(3, 3, 2, True))
+            start.cars.append(Car(4, 4, 2, False))
+            start.cars.append(Car(3, 5, 3, False))
+            solution = start.solve_puzzle()
+            print(len(solution), end='.')
+            if solution[-1]:
+                print(solution[-1].reached_goal())
 
 ---
