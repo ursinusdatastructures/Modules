@@ -12,7 +12,7 @@ info:
   prev: "./Video2"
   next: "./Video3"
   points: 5
-  instructions: "Copy in your code from before for <code>get_next_moves</code>, and then fill in the <code>solve_puzzle</code> method to run breadth-first search starting at this state and going until a goal state is reached.  Then, trace back from the goal state to the beginning, and return that list.  The tester will use this code to solve the hard puzzle given on the <a href = "http://www.ctralie.com/Teaching/CS371_S2021/ClassExercises/Week1/rushhour-master/">first day of class</a>, and the next page will show an animation of that solution."
+  instructions: "Copy in your code from before for <code>get_next_moves</code>, and then fill in the <code>solve_puzzle</code> method to run breadth-first search starting at this state and going until a goal state is reached.  Then, trace back from the goal state to the beginning, and return that list.  The tester will use this code to solve the hard puzzle given on the <a href = \"http://www.ctralie.com/Teaching/CS371_S2021/ClassExercises/Week1/rushhour-master/\">first day of class</a>, and the next page will show an animation of that solution."
   goals:
     - Implement breadth-first search in an abstract graph
     - Backtrace from a goal state in breadth-first search to enumerate a sequence of moves to a solution
