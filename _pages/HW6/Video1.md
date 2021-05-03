@@ -5,6 +5,7 @@ title: "CS 371: Homework 6: Rush Hour Graph Representations"
 excerpt: "CS 371: Homework 6: Rush Hour Graph Representations"
 
 info:
+  prev: "./Exercise0"
   next: "./Exercise1"
 ---
 
