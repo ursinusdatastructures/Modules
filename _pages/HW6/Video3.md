@@ -21,3 +21,5 @@ Here is an optimal solution to an even harder puzzle
 <img src = "../images/HW6/Puzzle40.gif">
 
 
+<p>
+If you want to play around with this code more on your own, <a href = "https://github.com/Ursinus-CS371-S2021/Modules/tree/gh-pages/images/HW6/jams">click here</a> to get 40 puzzles you can try.
