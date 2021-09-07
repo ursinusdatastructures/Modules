@@ -1,6 +1,6 @@
 ---
 layout: exercise_python
-permalink: "HW6/Exercise0"
+permalink: "/HW6hid/Exercise0"
 title: "CS 371: SPTQ"
 excerpt: "CS 472: SPTQ"
 canvasasmtid: "117734"

@@ -1,6 +1,6 @@
 ---
 layout: exercise_python
-permalink: "HW6/Exercise2"
+permalink: "/HW6hid/Exercise2"
 title: "CS 371: Homework 6: Rush Hour Solution"
 excerpt: "CS 371: Homework 6: Rush Hour Graph Solution"
 canvasasmtid: "117733"

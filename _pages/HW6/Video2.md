@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /HW6/Video2
+permalink: /HW6hid/Video2
 title: "CS 371: Homework 6: Rush Hour Breadth-First Search"
 excerpt: "CS 371: Homework 6: Rush Hour Breadth-First Search"
 

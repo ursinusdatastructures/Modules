@@ -1,6 +1,6 @@
 ---
 layout: exercise_python
-permalink: "HW6/Exercise1"
+permalink: "/HW6hid/Exercise1"
 title: "CS 371: Homework 6: Rush Hour Neighbor Enumeration"
 excerpt: "CS 371: Homework 6: Rush Hour Graph Neighbor Enumeration"
 canvasasmtid: "117730"

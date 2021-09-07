@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /HW6/Video1
+permalink: /HW6hid/Video1
 title: "CS 371: Homework 6: Rush Hour Graph Representations"
 excerpt: "CS 371: Homework 6: Rush Hour Graph Representations"
 

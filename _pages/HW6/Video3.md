@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /HW6/Video3
+permalink: /HW6hid/Video3
 title: "CS 371: Homework 6: Rush Hour Solutions"
 excerpt: "CS 371: Homework 6: Rush Hour Solutions"
 
