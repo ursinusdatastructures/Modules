@@ -1,15 +1,15 @@
 ---
 layout: exercise_python
-permalink: "Module2/Exercise3"
-title: "CS 477: Module 1: Classes Exercise 3"
-excerpt: "CS 477: Module 1: Classes Exercise 3"
-canvasasmtid: "111324"
+permalink: "Module1/Exercise6"
+title: "CS 477: Module 1: Classes Exercise 2"
+excerpt: "CS 477: Module 1: Classes Exercise 2"
+canvasasmtid: "140171"
 canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video3"
+  prev: "./Video6"
   points: 1.5
   instructions: "<p>Create a static variable in the <code>Person</code> class called <code>num_people</code> which starts off as 0 and increments every time a new object of type <code>Person</code> is constructed.</p>"
   goals:

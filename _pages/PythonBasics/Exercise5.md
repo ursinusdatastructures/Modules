@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "Module1/Exercise5"
 title: "CS 477: Module 1: Classes Exercise"
 excerpt: "CS 477: Module 1: Classes Exercise"
-canvasasmtid: "123844"
+canvasasmtid: "140170"
 canvaspoints: "1.5"
 canvashalftries: 5
 
