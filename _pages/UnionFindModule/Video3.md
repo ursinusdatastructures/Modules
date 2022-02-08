@@ -1,11 +1,11 @@
 ---
 layout: module
-permalink: /Module3/Video3
-title: "CS 371: Module 3: Union Find"
-excerpt: "CS 371: Module 3: Union Find"
+permalink: /UnionFindModule/Video3
+title: "CS 371: Union Find Data Structure"
+excerpt: "CS 371: Union Find Data Structure"
 
 info:
-  prev: "./Exercise2"
+  prev: "./Video2"
   next: "./Exercise3"
   comments: "true"
 ---

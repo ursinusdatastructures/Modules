@@ -1,17 +1,17 @@
 ---
 layout: exercise_python
-permalink: "Module3/Exercise1"
-title: "CS 371: Module 3: Part 1"
-excerpt: "CS 371: Module 3: Part 1"
-canvasasmtid: "111826"
-canvaspoints: "1"
+permalink: "UnionFindModule/Exercise1"
+title: "CS 371: Disjoint Set Class Idea Implementation"
+excerpt: "CS 371: Disjoint Set Class Idea Implementation"
+canvasasmtid: "142829"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1"
   next: "./Video2"
-  points: 1
+  points: 1.5
   instructions: "<p>Fill in the <code>find</code> method in the bubble set implementation of disjoint sets below.</p>"
   goals:
     - To manipulate variables and types in python

@@ -1,18 +1,17 @@
 ---
 layout: exercise_python
-permalink: "Module3/Exercise2"
-title: "CS 371: Module 3: Part 1"
-excerpt: "CS 371: Module 3: Part 1"
+permalink: "UnionFindModule/OptionalExercise"
+title: "CS 371: Union Find Optional Exercise"
+excerpt: "CS 371: Union Find Optional Exercise"
 canvasasmtid: "111827"
-canvaspoints: "1"
+canvaspoints: "0"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
-  next: "./Video3"
   points: 1
-  instructions: "<p>Fill in the <code>find</code> method in the ID-based implementation of disjoint sets below.</p>"
+  instructions: "<p>This is an optional exercise.  Fill in the <code>find</code> method in the ID-based implementation of disjoint sets below.</p>"
   goals:
     - To manipulate variables and types in python
     - To apply arithmetic expressions in python

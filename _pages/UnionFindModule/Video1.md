@@ -1,7 +1,7 @@
 ---
 layout: module
-permalink: /Module3/Video1
-title: "CS 371: Module 3: Disjoint Set Data Structures"
+permalink: /UnionFindModule/Video1
+title: "CS 371: Disjoint Set Data Structure"
 excerpt: "CS 371: Module 3: Disjoint Set Data Structures"
 
 info:
@@ -10,10 +10,12 @@ info:
 ---
 
 <p>
-Please watch the two videos below, and click the <code>Next</code> button to continue when you're finished
+Wtch the two videos below, which discuss the approaches that people came up with in class for disjoint set.  Click the <code>Next</code> button to continue when you're finished
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cbu0fJXcYGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p></p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GC7yOWAFWLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
