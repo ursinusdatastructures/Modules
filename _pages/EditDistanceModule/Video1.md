@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /EditDistanceModule/Video1
-title: "CS 371: Recursion Module: String Edit Distance"
-excerpt: "CS 371: Recursion Module: String Edit Distance"
+title: "CS 371: String Edit Distance Module: Problem Definition"
+excerpt: "CS 371: String Edit Distance Module: Problem Definition"
 
 info:
   comments: "true"

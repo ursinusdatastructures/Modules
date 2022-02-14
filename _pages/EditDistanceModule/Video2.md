@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module10/Video4
-title: "CS 371: Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
-excerpt: "CS 371: Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
+permalink: /EditDistanceModule/Video2
+title: "CS 371: String Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
+excerpt: "CS 371: String Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
 
 info:
   comments: "true"
