@@ -3,7 +3,7 @@ layout: exercise_pyodide
 permalink: "/EditDistanceModule/Exercise2"
 title: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
 excerpt: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
-canvasasmtid: "113876"
+canvasasmtid: "143123"
 canvaspoints: "2"
 canvashalftries: 5
 
