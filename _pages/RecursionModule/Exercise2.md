@@ -1,16 +1,15 @@
 ---
 layout: exercise_python
-permalink: "Module10/Exercise2"
-title: "CS 371: Module 10: Exercise 2"
-excerpt: "CS 371: Module 10: Exercise 2"
-canvasasmtid: "113872"
+permalink: "/RecursionModule/Exercise2"
+title: "CS 371: Recursion Module: Ackermann Memoization"
+excerpt: "CS 371: Recursion Module: Ackermann Memoization"
+canvasasmtid: "143117"
 canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video2"
-  next: "./Video3"
+  prev: "./Video3"
   points: 1.5
   instructions: "<p>The code below provides a method to compute the Ackermann function.  Use memoization to speed it up by checking a dictionary to see if a particular ackermann call has already been computed.</p>"
   goals:

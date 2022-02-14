@@ -1,13 +1,12 @@
 ---
 layout: module
-permalink: /Module10/Video3
-title: "CS 371: Module 10: String Edit Distance"
-excerpt: "CS 371: Module 10: String Edit Distance"
+permalink: /EditDistanceModule/Video1
+title: "CS 371: Recursion Module: String Edit Distance"
+excerpt: "CS 371: Recursion Module: String Edit Distance"
 
 info:
   comments: "true"
-  prev: "./Exercise2"
-  next: "./Exercise3"
+  next: "./Exercise1"
 ---
 
 <p>

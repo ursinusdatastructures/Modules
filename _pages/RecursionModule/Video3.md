@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module10/Video2
-title: "CS 371: Module 10: Memoization"
-excerpt: "CS 371: Module 10: Memoization"
+permalink: /RecursionModule/Video3
+title: "CS 371: Recursion Module: Memoization"
+excerpt: "CS 371: Recursion Module: Memoization"
 
 info:
   comments: "true"
@@ -11,7 +11,7 @@ info:
 ---
 
 <p>
-Please watch the video below and click the <code>Next</code> button to continue when you're ready.
+Watch the video below and click the <code>Next</code> button to continue when you're ready.
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lHo2bo2FzQg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

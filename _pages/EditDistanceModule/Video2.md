@@ -1,13 +1,13 @@
 ---
 layout: module
 permalink: /Module10/Video4
-title: "CS 371: Module 10: Dynamic Programming / Memoization for String Edit Distance"
-excerpt: "CS 371: Module 10: Dynamic Programming / Memoization for String Edit Distance"
+title: "CS 371: Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
+excerpt: "CS 371: Edit Distance Module: Dynamic Programming / Memoization for String Edit Distance"
 
 info:
   comments: "true"
-  prev: "./Exercise3"
-  next: "./Exercise4"
+  prev: "./Exercise1"
+  next: "./Exercise2"
 ---
 
 <p>

@@ -1,12 +1,11 @@
 ---
 layout: module
-permalink: /Module9/Video1
-title: "CS 371: Module 9: Stacks And Queues"
-excerpt: "CS 371: Module 9: Stacks And Queues"
+permalink: /RecursionModule/Video1
+title: "CS 371: Recursion Module: Stacks And Queues"
+excerpt: "CS 371: Recursion Module: Stacks And Queues"
 
 info:
   comments: "true"
-  prev: "./Exercise0"
   next: "./Video2"
 ---
 
@@ -19,5 +18,5 @@ Read section 6.2, 6.3, and 7.3 in the Sheehy book to review stacks, queues, and 
 </p>
 
 <p>
-When you feel comfortable with all of this, please move on to the warm-up video and exercise for the class activity on Friday on the following pages
+When you feel comfortable with all of this, move on to the warm-up video and exercise for the class activity on Friday on the following pages
 </p>

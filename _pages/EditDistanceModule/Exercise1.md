@@ -1,16 +1,16 @@
 ---
-layout: exercise_pyodide
-permalink: "Module10/Exercise3"
-title: "CS 371: Module 10: Exercise 3"
-excerpt: "CS 371: Module 10: Exercise 3"
-canvasasmtid: "113873"
+layout: exercise_python
+permalink: "/EditDistanceModule/Exercise1"
+title: "CS 371: Edit Distance Module: Recursive String Edit Distance"
+excerpt: "CS 371: Edit Distance Module: Recursive String Edit Distance"
+canvasasmtid: "143118"
 canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video3"
-  next: "./Video4"
+  prev: "./Video1"
+  next: "./Video2"
   points: 2
   instructions: "Fill in the code to complete the recursive calls for edit distance."
   packages: "numpy"

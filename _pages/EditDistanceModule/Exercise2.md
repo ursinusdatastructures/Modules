@@ -1,17 +1,17 @@
 ---
 layout: exercise_pyodide
-permalink: "Module10/Exercise4"
-title: "CS 371: Module 10: Exercise 4"
-excerpt: "CS 371: Module 10: Exercise 4"
+permalink: "/EditDistanceModule/Exercise2"
+title: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
+excerpt: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
 canvasasmtid: "113876"
 canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video4"
+  prev: "./Video2"
   points: 2
-  instructions: "Fill in the code to complete the memoization table for string edit distance."
+  instructions: "Fill in the code to complete the memoization table for string edit distance.  When we build such a table from the bottom up, it's referred to as <b>dynamic programming</b>"
   packages: "numpy"
   goals:
     - To use memoization/dynamic programming to solve the string edit distance efficiently

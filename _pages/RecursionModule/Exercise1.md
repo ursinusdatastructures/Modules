@@ -1,15 +1,16 @@
 ---
 layout: exercise_python
-permalink: "Module9/Exercise1"
-title: "CS 371: Module 9: Exercise 1"
-excerpt: "CS 371: Module 9: Exercise 1"
-canvasasmtid: "113737"
+permalink: "/RecursionModule/Exercise1"
+title: "CS 371: Recursion Module: Towers of Hanoi Solution Count"
+excerpt: "CS 371: Recursion Module: Towers of Hanoi Solution Count"
+canvasasmtid: "143115"
 canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
+  next: "./Video3"
   points: 1.5
   instructions: "<p>The code below provides the beginning of a recursive implementation that counts the optimal number of moves needed in the Towers of Hanoi problem.  Fill in the recursive calls to complete this method.  We will make a recursive scheme in class to actually show the animation of a solution, but this is the first step.</p>"
   goals:
