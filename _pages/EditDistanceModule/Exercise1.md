@@ -1,5 +1,5 @@
 ---
-layout: exercise_python
+layout: exercise_pyodide
 permalink: "/EditDistanceModule/Exercise1"
 title: "CS 371: Edit Distance Module: Recursive String Edit Distance"
 excerpt: "CS 371: Edit Distance Module: Recursive String Edit Distance"
