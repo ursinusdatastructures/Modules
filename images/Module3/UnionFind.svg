@@ -12,27 +12,27 @@
    viewBox="0 0 272.60852 421.76549"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="UnionFind2.svg">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="UnionFind.svg">
   <defs
      id="defs2">
     <marker
-       style="overflow:visible"
-       id="marker34867"
-       refX="0"
-       refY="0"
-       orient="auto"
+       inkscape:isstock="true"
        inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true">
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3365"
+       style="overflow:visible">
       <path
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         id="path3363"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path34865" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
     <marker
        style="overflow:visible"
-       id="marker15481"
+       id="marker34867"
        refX="0"
        refY="0"
        orient="auto"
@@ -43,7 +43,7 @@
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path15479" />
+         id="path34865" />
     </marker>
     <marker
        style="overflow:visible"
@@ -2005,15 +2005,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-643.94659"
-     inkscape:cy="900.33761"
+     inkscape:zoom="1.4"
+     inkscape:cx="468.014"
+     inkscape:cy="234.84665"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1557"
      inkscape:window-height="893"
-     inkscape:window-x="2043"
+     inkscape:window-x="363"
      inkscape:window-y="82"
      inkscape:window-maximized="0"
      fit-margin-top="0"
@@ -2029,7 +2029,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3156,21 +3156,21 @@
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path815-3-6-1-4-7-4-7"
-       cx="34.661522"
-       cy="499.45532"
+       cx="34.260616"
+       cy="486.22549"
        rx="3.4962797"
        ry="3.4017856" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="33.244102"
-       y="500.87274"
+       style="font-style:normal;font-weight:normal;font-size:4.23332977px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+       x="32.843197"
+       y="487.64291"
        id="text819-6-2-9-7-0-8-8"><tspan
          sodipodi:role="line"
          id="tspan817-7-9-4-1-6-5-8"
-         x="33.244102"
-         y="500.87274"
-         style="stroke-width:0.264583">6</tspan></text>
+         x="32.843197"
+         y="487.64291"
+         style="stroke-width:0.26458299">6</tspan></text>
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path815-3-9-7-8-6-9-4"
@@ -3253,13 +3253,9 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15481-0-8-0-1-4-2)"
        d="m 21.822618,482.22656 v -8.81989"
        id="path15477-0-2-1-1-6-9" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15481)"
-       d="m 32.594939,497.15236 -11.528273,-9.4494"
-       id="path31153" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
        x="-0.44116116"
        y="514.35248"
        id="text22428-2-1-0-5"><tspan
@@ -3267,7 +3263,7 @@
          id="tspan22426-1-0-2-7"
          x="-0.44116116"
          y="514.35248"
-         style="stroke-width:0.264583">parents = [0, 7, 0, 3, 4, 5, 1, 7, 1, 9]</tspan></text>
+         style="stroke-width:0.26458299">parents = [0, 7, 0, 3, 4, 5, 7, 7, 1, 9]</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15481-0-8-5-5-0)"
        d="m 2.1966898,572.57866 v -8.81989"
@@ -3383,21 +3379,21 @@
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path815-3-6-1-4-7-4-7-6"
-       cx="32.230984"
-       cy="594.65369"
+       cx="35.125092"
+       cy="579.82288"
        rx="3.4962797"
        ry="3.4017856" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="30.81356"
-       y="596.07111"
+       style="font-style:normal;font-weight:normal;font-size:4.23332977px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+       x="33.707668"
+       y="581.2403"
        id="text819-6-2-9-7-0-8-8-2"><tspan
          sodipodi:role="line"
          id="tspan817-7-9-4-1-6-5-8-5"
-         x="30.81356"
-         y="596.07111"
-         style="stroke-width:0.264583">6</tspan></text>
+         x="33.707668"
+         y="581.2403"
+         style="stroke-width:0.26458299">6</tspan></text>
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path815-3-9-7-8-6-9-4-8"
@@ -3481,9 +3477,10 @@
        d="m 19.392076,577.42488 v -8.81989"
        id="path15477-0-2-1-1-6-9-4" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15481-1)"
-       d="m 30.164398,592.35068 -11.528274,-9.4494"
-       id="path31153-1" />
+       style="fill:none;stroke:#000000;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15481-1)"
+       d="m 33.058506,577.51985 -11.528274,-9.4494"
+       id="path31153-1"
+       inkscape:connector-curvature="0" />
     <path
        id="path8450-3-4-0-1-5"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8464-02-8-1-02-3)"
@@ -3566,7 +3563,7 @@
          id="tspan35681" /></text>
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
        x="-0.95614707"
        y="615.50165"
        id="text22428-2-1-0-5-7"><tspan
@@ -3574,7 +3571,7 @@
          id="tspan22426-1-0-2-7-0"
          x="-0.95614707"
          y="615.50165"
-         style="stroke-width:0.264583">parents = [0, 7, 0, 3, 4, 5, 1, 0, 1, 9]</tspan></text>
+         style="stroke-width:0.26458299">parents = [0, 7, 0, 3, 4, 5, 7, 0, 1, 9]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -3622,5 +3619,10 @@
          y="354.28946"
          style="stroke-width:0.264583"
          id="tspan35849">       parent[root_j] = root_i</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker3365)"
+       d="m 32.964352,483.019 -8.68626,-11.09168"
+       id="path3355"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
