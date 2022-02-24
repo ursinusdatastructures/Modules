@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module11/Video1
-title: "CS 371: Module 11: Edit Distance Recursive Backtracing"
-excerpt: "CS 371: Module 11: Edit Distance Recursive Backtracing"
+permalink: /MakingChange/Video1
+title: "CS 371: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
+excerpt: "CS 371: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
 
 info:
   comments: "true"

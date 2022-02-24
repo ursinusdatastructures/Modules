@@ -1,15 +1,16 @@
 ---
 layout: exercise_python
-permalink: "Module11/Exercise1"
-title: "CS 371: Module 11: Exercise 1"
-excerpt: "CS 371: Module 11: Exercise 1"
-canvasasmtid: "114325"
+permalink: "MakingChange/Exercise1"
+title: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
+excerpt: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
+canvasasmtid: "143850"
 canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
+  next: "./Video3"
   points: 2
   instructions: "<p>The code below includes the iterative dynamic programming approach we talked about for making change, which includes memory of the optimal coin choices to make at each step.  Complete the <code>get_change_coins</code> method to recursively backtrace and enumerate all possibilities of making change optimally.  The base case has already been taken care of, you just need to initiate recursion on all possible coins to choose at a particular step.  To show the algorithm off a little more, the test cases include a 3 cent coin, which leads to more than one possibility on some of the cases.</p>"
   goals:
@@ -35,7 +36,7 @@ files:
     isvisible: true
     height: 680
     code: | 
-          def get_change_coins(optimal, s, amt, all_ways):
+          def get_change_coins(optimal, chosen_coins, amt, all_ways):
               """
               Recursively backtrace through optimal coin choices to see
               all of the ways of making changes
@@ -43,8 +44,8 @@ files:
               ----------
               optimal: list of list
                   A list of optimal coin choices, indexed by amount
-              s: stack
-                  A stack of all of the coins considered so far
+              chosen_coins: list
+                  All of the coins considered so far
               amt: int
                   The current amount that's being turned into change
               all_ways: set
@@ -53,9 +54,9 @@ files:
               """
               if len(optimal[amt]) == 0:
                   # Stopping condition: No more coins left to look at
-                  # We know that this amount is one of the coins
-                  counts = {amt:1} 
-                  for coin in s.get_entire_stack():
+                  # Make a dictionary of amount:count for all chosen coins
+                  counts = {amt:1} # We know that this amount is one of the coins
+                  for coin in chosen_coins:
                       if not coin in counts:
                           counts[coin] = 0
                       counts[coin] += 1
@@ -70,9 +71,9 @@ files:
               else:
                   for c in optimal[amt]:
                       ## TODO: Fill this in
-                      ## 1. Push the coin c onto the stack
+                      ## 1. Put this coin on the back of the list of chosen coins
                       ## 2. Make a recursive call 
-                      ## 3. Pop this coin off of the stack
+                      ## 3. Pop this coin off of the back of the list of chosen coins
                       pass
               
 
@@ -116,97 +117,10 @@ files:
                               if min_c == min_coins:
                                   optimal[amti].append(c)
                       mem[amti] = min_coins
-              s = Stack()
+              chosen_coins = []
               all_ways = set([])
-              get_change_coins(optimal, s, amt, all_ways)
+              get_change_coins(optimal, chosen_coins, amt, all_ways)
               return mem[-1], all_ways
-
-  - filename: "Stack (Provided)"
-    name: stack
-    ismain: false
-    isreadonly: true
-    isvisible: true
-    height: 400
-    code: | 
-          class Node:
-              def __init__(self, value):
-                  self.value = value
-                  self.next = None # Python's version of "null" is "None"
-          
-          class LinkedList:
-              def __init__(self):
-                  self.head = None
-                  self.N = 0
-              
-              def add_first(self, value):
-                  """
-                  Parameters
-                  ----------
-                  value: any
-                      Add a new node to the beginning with this value
-                  """
-                  new_node = Node(value)
-                  head_before = self.head
-                  self.head = new_node
-                  new_node.next = head_before
-                  self.N += 1
-              
-              def remove_first(self):
-                  """
-                  Remove and return the first value from the linked list
-                  or do nothing and return None if it's already empty
-                  """
-                  ret = None
-                  if self.head: # If the head is not None
-                      ret = self.head.value
-                      self.head = self.head.next
-                      self.N -= 1
-                  return ret
-              
-              def peek_first(self):
-                  ret = None
-                  if self.head:
-                      ret = self.head.value
-                  return ret
-                  
-              def __str__(self):
-                  # This is like the to-string method
-                  s = "LinkedList: "
-                  node = self.head
-                  while node: #As long as the node is not None
-                      s += "{} ==> ".format(node.value)
-                      node = node.next
-                  return s
-              
-              def __len__(self):
-                  # This allows us to use len() on our object to get its length!
-                  return self.N
-
-          class Stack:
-              def __init__(self):
-                  self.L = LinkedList()
-              
-              def push(self, val):
-                  self.L.add_first(val)
-              
-              def pop(self):
-                  return self.L.remove_first()
-              
-              def peek(self):
-                  return self.L.peek_first()
-              
-              def get_entire_stack(self):
-                  node = self.L.head
-                  ret = []
-                  while node: #As long as the node is not None
-                      ret = [node.value] + ret
-                      node = node.next
-                  return ret
-              
-              def __len__(self):
-                  # This allows us to use len() on our object to get its length!
-                  return len(self.L)
-
 
   - filename: "Test Code Block"
     ismain: true

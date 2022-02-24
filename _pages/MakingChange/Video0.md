@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module11/Video0
-title: "CS 371: Module 11: Edit Distance Iterative Backtracing"
-excerpt: "CS 371: Module 11: Edit Distance Iterative Backtracing"
+permalink: /MakingChange/Video0
+title: "CS 371: Dynamic Programming And Backtracing: Edit Distance Iterative Backtracing"
+excerpt: "CS 371: Dynamic Programming And Backtracing: Edit Distance Iterative Backtracing"
 
 info:
   comments: "true"
@@ -10,7 +10,7 @@ info:
 ---
 
 <p>
-Please watch the video below, and click next to continue when you're ready
+Watch the video below, and click next to continue when you're ready
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5YIgy7wxYU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

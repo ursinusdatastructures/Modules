@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module11/Video2
-title: "CS 371: Module 11: Making Change with Dynamic Programming"
-excerpt: "CS 371: Module 11: Making Change with Dynamic Programming"
+permalink: /MakingChange/Video2
+title: "CS 371: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
+excerpt: "CS 371: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
 
 info:
   comments: "true"
