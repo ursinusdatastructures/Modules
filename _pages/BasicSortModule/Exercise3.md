@@ -1,17 +1,17 @@
 ---
 layout: exercise_python
-permalink: "Module14/Exercise3"
-title: "CS 371: Module 14: Exercise 3"
-excerpt: "CS 371: Module 14: Exercise 3"
-canvasasmtid: "115273"
-canvaspoints: "1.5"
+permalink: "BasicSortingModule/Exercise3"
+title: "CS 371: Sorting Basics Module: Exercise 2"
+excerpt: "CS 371: Sorting Basics Module: Exercise 2"
+canvasasmtid: "144215"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video4"
   next: "./Video5"
-  points: 1.5
+  points: 2
   instructions: "<p>Complete the code below to implement insertion sort in python.</p>"
   goals:
     - Implement the insertion sort algorithm

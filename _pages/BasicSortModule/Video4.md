@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module14/Video4
-title: "CS 371: Module 14: Insertion Sort"
-excerpt: "CS 371: Module 14: Insertion Sort"
+permalink: /BasicSortingModule/Video4
+title: "CS 371: Sorting Basics Module: Insertion Sort"
+excerpt: "CS 371: Sorting Basics Module: Insertion Sort"
 
 info:
   comments: "true"
@@ -26,4 +26,4 @@ Please watch the videos below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module14/InsertionSort.html" width="700" height="400">
+<iframe src = "../images/BasicSortingModule/InsertionSort.html" width="700" height="400">

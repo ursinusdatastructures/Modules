@@ -1,13 +1,13 @@
 ---
 layout: module
-permalink: /Module14/Video3
-title: "CS 371: Module 14: Bubble Sort"
-excerpt: "CS 371: Module 14: Bubble Sort"
+permalink: /BasicSortingModule/Video3
+title: "CS 371: Sorting Basics Module: Bubble Sort"
+excerpt: "CS 371: Sorting Basics Module: Bubble Sort"
 
 info:
   comments: "true"
   next: "./Video4"
-  prev: "./Exercise2"
+  prev: "./Video2"
 ---
 
 <p>
@@ -30,4 +30,4 @@ Please watch the videos below, and click the next button when you are finished. 
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module14/BubbleSort.html" width="700" height="800">
+<iframe src = "../images/BasicSortingModule/BubbleSort.html" width="700" height="800">

@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module14/Video1
-title: "CS 371: Module 14: Recursively Enumerating Permutations"
-excerpt: "CS 371: Module 14: Recursively Enumerating Permutations"
+permalink: /BasicSortingModule/Video1
+title: "CS 371: Sorting Basics Module: Recursively Enumerating Permutations"
+excerpt: "CS 371: Sorting Basics Module: Recursively Enumerating Permutations"
 
 info:
   comments: "true"
@@ -17,4 +17,4 @@ Please watch the video below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module14/Permutations.html" width="700" height="1600">
+<iframe src = "../images/BasicSortingModule/Permutations.html" width="700" height="1600">

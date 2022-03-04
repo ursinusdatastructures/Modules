@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module14/Video5
-title: "CS 371: Module 14: Merge Sort"
-excerpt: "CS 371: Module 14: Merge Sort"
+permalink: /BasicSortingModule/Video5
+title: "CS 371: Sorting Basics Module: Merge Sort"
+excerpt: "CS 371: Sorting Basics Module: Merge Sort"
 
 info:
   comments: "true"

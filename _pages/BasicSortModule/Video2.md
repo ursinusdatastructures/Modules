@@ -1,12 +1,12 @@
 ---
 layout: module
-permalink: /Module14/Video2
-title: "CS 371: Module 14: Brute Force Sorting"
-excerpt: "CS 371: Module 14: Brute Force Sorting"
+permalink: /BasicSortingModule/Video2
+title: "CS 371: Sorting Basics Module: Brute Force Sorting"
+excerpt: "CS 371: Sorting Basics Module: Brute Force Sorting"
 
 info:
   comments: "true"
-  next: "./Exercise2"
+  next: "./Video3"
   prev: "./Exercise1"
 ---
 
@@ -18,4 +18,4 @@ Please watch the video below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module14/BruteSort.html" width="700" height="4000">
+<iframe src = "../images/BasicSortingModule/BruteSort.html" width="700" height="4000">

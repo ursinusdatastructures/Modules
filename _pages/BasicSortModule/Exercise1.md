@@ -1,9 +1,9 @@
 ---
 layout: exercise_python
-permalink: "Module14/Exercise1"
-title: "CS 371: Module 14: Exercise 1"
-excerpt: "CS 371: Module 14: Exercise 1"
-canvasasmtid: "115267"
+permalink: "BasicSortingModule/Exercise1"
+title: "CS 371: Sorting Basics Module: Exercise 1"
+excerpt: "CS 371: Sorting Basics Module: Exercise 1"
+canvasasmtid: "144214"
 canvaspoints: "1.5"
 canvashalftries: 5
 
