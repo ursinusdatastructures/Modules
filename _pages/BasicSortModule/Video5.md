@@ -10,7 +10,7 @@ info:
 ---
 
 <p>
-We will now use recursion to design an algorithm that beats the <b>O(N<SUP>2</SUP>)</b> worst case complexity bound, using recursion.  Please watch the videos below, and be prepared to implement this in class on Monday.
+We will now use recursion to design an algorithm that beats the <b>O(N<SUP>2</SUP>)</b> worst case complexity bound, using recursion.  Please watch the videos below, and be prepared to implement this in the next lab on Wednesday.
 </p>
 
 <h3>My CS 173 Video on Merge Sort</h3>
