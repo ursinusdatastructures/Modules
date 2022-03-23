@@ -1,17 +1,16 @@
 ---
 layout: exercise_pyodide
-permalink: "Module16/Exercise2"
-title: "CS 371: Module 16: Exercise 2: Fisher-Yates Shuffling"
-excerpt: "CS 371: Module 16: Exercise 2: Fisher-Yates Shuffling"
-canvasasmtid: "115890"
-canvaspoints: "1.5"
+permalink: "RadixFisherYates/Exercise2"
+title: "CS 371: Sorting Module 2: Exercise 2: Fisher-Yates Shuffling"
+excerpt: "CS 371: Sorting Module 2: Exercise 2: Fisher-Yates Shuffling"
+canvasasmtid: "145125"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
-  next: "./Video3"
-  points: 1.5
+  points: 2
   instructions: "Fill in the code to an implementation of Fisher-Yates shuffling which shuffles the items in place from the back forward.  In particular, at each step i, you should pick an index between 0 and N-i-1, inclusive, and then swap the element at index i with this random index.  Recall that <code><a href = \"https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html\">np.random.randint(num)</a></code> returns numbers between 0 and num-1, inclusive."
   packages: "numpy"
   goals:

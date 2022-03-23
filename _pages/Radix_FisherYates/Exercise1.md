@@ -1,17 +1,17 @@
 ---
 layout: exercise_python
-permalink: "Module16/Exercise1"
-title: "CS 371: Module 16: Exercise 1: Radix Sort"
-excerpt: "CS 371: Module 16: Exercise 1: Radix Sort"
-canvasasmtid: "115885"
-canvaspoints: "1.5"
+permalink: "RadixFisherYates/Exercise1"
+title: "CS 371: Sorting Module 2: Exercise 1: Radix Sort"
+excerpt: "CS 371: Sorting Module 2: Exercise 1: Radix Sort"
+canvasasmtid: "145124"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1"
   next: "./Video2"
-  points: 1.5
+  points: 2
   instructions: "<p>Finish the code below to complete radix sort.</p>"
   goals:
     - Implement radix sort

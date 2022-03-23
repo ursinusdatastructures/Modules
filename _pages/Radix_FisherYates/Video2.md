@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module16/Video2
-title: "CS 371: Module 16: Fisher-Yates Shuffling"
-excerpt: "CS 371: Module 16: Fisher-Yates Shuffling"
+permalink: /RadixFisherYates/Video2
+title: "CS 371: Sorting Module 2: Fisher-Yates Shuffling"
+excerpt: "CS 371: Sorting Module 2: Fisher-Yates Shuffling"
 
 info:
   comments: "true"

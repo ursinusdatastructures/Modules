@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module16/Video1
-title: "CS 371: Module 16: Radix Sort"
-excerpt: "CS 371: Module 16: Radix Sort"
+permalink: /RadixFisherYates/Video1
+title: "CS 371: Sorting Module 2: Radix Sort"
+excerpt: "CS 371: Sorting Module 2: Radix Sort"
 
 info:
   comments: "true"
@@ -17,4 +17,4 @@ Please watch the video below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module16/RadixSort.html" width="800" height="2300">
+<iframe src = "../images/RadixFisherYates/RadixSort.html" width="800" height="2300">
