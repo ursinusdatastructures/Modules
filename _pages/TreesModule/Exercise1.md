@@ -9,7 +9,7 @@ canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video1"
+  prev: "./Video1b"
   next: "./Video2"
   points: 2
   instructions: "Fill in the <code>make_tree()</code> method to create the binary tree pictured below:<BR><img src = \"../images/TreesModule/Exercise1.svg\">"
