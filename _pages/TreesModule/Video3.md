@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module17/Video3
-title: "CS 371: Module 17: Binary Trees Preorder/Postorder"
-excerpt: "CS 371: Module 17: Binary Trees Preorder/Postorder"
+permalink: /TreesModule/Video3
+title: "CS 371: Trees Module: Binary Trees Preorder/Postorder"
+excerpt: "CS 371: Trees Module: Binary Trees Preorder/Postorder"
 
 info:
   prev: "./Exercise2"
@@ -32,4 +32,4 @@ Please watch the video below from CS 174, and click the next button once you hav
 </li>
 </ul>
 
-<img src = "../images/Module17/BinaryTree_Preorder_PostOrder.svg">
+<img src = "../images/TreesModule/BinaryTree_Preorder_PostOrder.svg">

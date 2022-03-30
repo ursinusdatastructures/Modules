@@ -1,17 +1,17 @@
 ---
 layout: exercise_python
-permalink: "Module17/Exercise3"
-title: "CS 371: Module 17: Exercise 3: Preorder Traversal"
-excerpt: "CS 371: Module 17: Exercise 3: Preorder Traversal"
-canvasasmtid: "116001"
-canvaspoints: "1.5"
+permalink: "TreesModule/Exercise3"
+title: "CS 371: Trees Module: Exercise 3: Preorder Traversal"
+excerpt: "CS 371: Trees Module: Exercise 3: Preorder Traversal"
+canvasasmtid: "145386"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video3"
-  next: "./FinalSurvey"
-  points: 1.5
+  next: "./Video4"
+  points: 2
   instructions: "Complete the recursive calls to create a working implementation of preorder traversal."
   goals:
     - Use recursion to implement preorder traversal of a binary tree

@@ -1,17 +1,16 @@
 ---
 layout: exercise_python
-permalink: "Module18/Exercise1"
-title: "CS 371: Module 18: Exercise 1: BST Search"
-excerpt: "CS 371: Module 18: Exercise 1: BST Search"
-canvasasmtid: "116328"
-canvaspoints: "1.5"
+permalink: "TreesModule/Exercise4"
+title: "CS 371: Trees Module: Exercise 4: BST Search"
+excerpt: "CS 371: Trees Module: Exercise 4: BST Search"
+canvasasmtid: "145387"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
-  prev: "./Video1"
-  next: "./Video2a"
-  points: 1.5
+  prev: "./Video4"
+  points: 2
   instructions: "Fill in the <code>contains</code> method that returns <code>True</code> if the tree contains a particular value, or <code>False</code> otherwise."
   goals:
     - Manipulate nodes in a binary search tree

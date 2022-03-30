@@ -1,14 +1,14 @@
 ---
 layout: module
-permalink: /Module17/Video1
-title: "CS 371: Module 17: Introduction To Binary Trees"
-excerpt: "CS 371: Module 17: Introduction To Binary Trees"
+permalink: /TreesModule/Video1
+title: "CS 371: Trees Module: Introduction To Binary Trees"
+excerpt: "CS 371: Trees Module: Introduction To Binary Trees"
 
 info:
   next: "./Video1b"
 ---
 
-Below is a video from CS 174.  Please watch the first 7 minutes until it gets to the C++ code, and then you can skip to the next page
+Below is a video from CS 174.  The first 7 minutes go over the concept of binary trees, and the rest shows how to implement them in C++.  Do take a moment to review the C++ implementation; we will talk about some C++ code for trees in class, because they will give us a great opportunity to practice recursion and memory management in synergy.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HGZ21401-Uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -22,4 +22,4 @@ Below is a video from CS 174.  Please watch the first 7 minutes until it gets to
 <li>Binary trees are naturally recursive data structure, as an entire <b>subtree</b> can be spliced in by making the left child of a node be the root of that subtree.</li>
 </ul>
 
-<img src = "../images/Module17/BinaryTree.svg">
+<img src = "../images/TreesModule/BinaryTree.svg">

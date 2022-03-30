@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module17/FinalSurvey
-title: "CS 371: Module 17: Final Project Survey"
-excerpt: "CS 371: Module 17: Final Project Survey"
+permalink: /TreesModule/FinalSurvey
+title: "CS 371: Trees Module: Final Project Survey"
+excerpt: "CS 371: Trees Module: Final Project Survey"
 
 info:
   prev: "./Exercise3"

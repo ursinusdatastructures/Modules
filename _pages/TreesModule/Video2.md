@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module17/Video2
-title: "CS 371: Module 17: Binary Trees: Inorder Traversal"
-excerpt: "CS 371: Module 17: Binary Trees: Inorder Traversal"
+permalink: /TreesModule/Video2
+title: "CS 371: Trees Module: Binary Trees: Inorder Traversal"
+excerpt: "CS 371: Trees Module: Binary Trees: Inorder Traversal"
 
 info:
   prev: "./Exercise1"
@@ -30,4 +30,4 @@ If the nodes are setup so that for every node, the value in a node is greater th
 </li>
 </ul>
 
-<img src = "../images/Module17/BinaryTree_Inorder.png">
+<img src = "../images/TreesModule/BinaryTree_Inorder.png">

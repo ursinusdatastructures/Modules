@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module17/Video1b
-title: "CS 371: Module 17: Binary Tree Python Objects"
-excerpt: "CS 371: Module 17: Binary Tree Python Objects"
+permalink: /TreesModule/Video1b
+title: "CS 371: Trees Module: Binary Tree Python Objects"
+excerpt: "CS 371: Trees Module: Binary Tree Python Objects"
 
 info:
   prev: "./Video1"
@@ -14,4 +14,4 @@ info:
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module17/BinaryTrees.html" width="700" height="1100">
+<iframe src = "../images/TreesModule/BinaryTrees.html" width="700" height="1100">

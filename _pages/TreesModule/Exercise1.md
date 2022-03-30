@@ -1,18 +1,18 @@
 ---
 layout: exercise_python
-permalink: "Module17/Exercise1"
-title: "CS 371: Module 17: Exercise 1: Constructing Python Trees"
-excerpt: "CS 371: Module 17: Exercise 1: Constructing Python Trees"
-canvasasmtid: "115999"
-canvaspoints: "1.5"
+permalink: "TreesModule/Exercise1"
+title: "CS 371: Trees Module: Exercise 1: Constructing Python Trees"
+excerpt: "CS 371: Trees Module: Exercise 1: Constructing Python Trees"
+canvasasmtid: "145384"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1"
   next: "./Video2"
-  points: 1.5
-  instructions: "Fill in the <code>make_tree()</code> method to create the binary tree pictured below:<BR><img src = \"../images/Module17/Exercise1.svg\">"
+  points: 2
+  instructions: "Fill in the <code>make_tree()</code> method to create the binary tree pictured below:<BR><img src = \"../images/TreesModule/Exercise1.svg\">"
   goals:
     - Manipulate nodes in a binary tree data structure
     - Work with object references in python
