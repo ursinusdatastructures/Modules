@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module21/Video3
-title: "CS 371: Module 21: Kruskal Proof of Correctness"
-excerpt: "CS 371: Module 21: Kruskal Proof of Correctness"
+permalink: /KruskalNotes/Video3
+title: "CS 371: Kruskal Proof of Correctness"
+excerpt: "CS 371: Kruskal Proof of Correctness"
 
 info:
   prev: "./Video2"

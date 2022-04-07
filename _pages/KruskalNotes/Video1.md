@@ -1,11 +1,11 @@
 ---
 layout: module
-permalink: /Module21/Video1
-title: "CS 371: Module 21: Spanning Trees"
-excerpt: "CS 371: Module 21: Spanning Trees"
+permalink: /KruskalNotes/Video1
+title: "CS 371: Spanning Trees Notes"
+excerpt: "CS 371: Spanning Trees Notes"
 
 info:
-  next: "./Exercise1"
+  next: "./Video2"
 ---
 
 Please watch the video below, and click next when you are ready.

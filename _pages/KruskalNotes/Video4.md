@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module21/Video4
-title: "CS 371: Module 21: MST Complexity / Applications"
-excerpt: "CS 371: Module 21: MST Complexity / Applications"
+permalink: /KruskalNotes/Video4
+title: "CS 371: MST Complexity / Applications"
+excerpt: "CS 371: MST Complexity / Applications"
 
 info:
   prev: "./Video3"
