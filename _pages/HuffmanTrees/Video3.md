@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module19/Video3
-title: "CS 371: Module 19: Huffman Trees"
-excerpt: "CS 371: Module 19: Huffman Trees"
+permalink: /HuffmanTrees/Video3
+title: "CS 371: Huffman Trees Module: Huffman Trees"
+excerpt: "CS 371: Huffman Trees Module: Huffman Trees"
 
 info:
   prev: "./Exercise2"
@@ -15,4 +15,4 @@ Please watch the video below, and click next when you are ready.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module19/HuffmanTrees.html" width="800" height="6500"></iframe>
+<iframe src = "../images/HuffmanTrees/HuffmanTrees.html" width="800" height="6500"></iframe>

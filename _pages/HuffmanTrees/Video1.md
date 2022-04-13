@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module19/Video1
-title: "CS 371: Module 19: Binary Codebook Trees"
-excerpt: "CS 371: Module 19: Binary Codebook Trees"
+permalink: /HuffmanTrees/Video1
+title: "CS 371: Huffman Trees Module: Binary Codebook Trees"
+excerpt: "CS 371: Huffman Trees Module: Binary Codebook Trees"
 
 info:
   next: "./Exercise1"
@@ -14,4 +14,4 @@ Please watch the video below, and click next when you are ready.
 
 <h2>Notes</h2>
 
-<img src = "../images/Module19/BCB.svg" width="800">
+<img src = "../images/HuffmanTrees/BCB.svg" width="800">

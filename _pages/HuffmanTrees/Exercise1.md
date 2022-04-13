@@ -1,9 +1,9 @@
 ---
 layout: exercise_python
-permalink: "Module19/Exercise1"
-title: "CS 371: Module 19: Exercise 1: Constructing BCB Trees"
-excerpt: "CS 371: Module 19: Exercise 1: Constructing BCB Trees"
-canvasasmtid: "116886"
+permalink: "HuffmanTrees/Exercise1"
+title: "CS 371: Huffman Trees Module: Exercise 1: Constructing BCB Trees"
+excerpt: "CS 371: Huffman Trees Module: Exercise 1: Constructing BCB Trees"
+canvasasmtid: "146080"
 canvaspoints: "1.5"
 canvashalftries: 5
 

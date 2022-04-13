@@ -1,9 +1,9 @@
 ---
 layout: exercise_python
-permalink: "Module19/Exercise2"
-title: "CS 371: Module 19: Exercise 2: Decoding from BCB Trees"
-excerpt: "CS 371: Module 19: Exercise 2: Decoding from BCB Trees"
-canvasasmtid: "116887"
+permalink: "HuffmanTrees/Exercise2"
+title: "CS 371: Huffman Trees Module: Exercise 2: Decoding from BCB Trees"
+excerpt: "CS 371: Huffman Trees Module: Exercise 2: Decoding from BCB Trees"
+canvasasmtid: "146082"
 canvaspoints: "2"
 canvashalftries: 5
 

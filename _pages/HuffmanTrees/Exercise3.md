@@ -1,8 +1,8 @@
 ---
 layout: exercise_python
-permalink: "Module19/Exercise3"
-title: "CS 371: Module 19: Exercise 3: Building Huffman Trees"
-excerpt: "CS 371: Module 19: Exercise 3: Building Huffman Trees"
+permalink: "HuffmanTrees/Exercise3"
+title: "CS 371: Huffman Trees Module: Exercise 3: Building Huffman Trees"
+excerpt: "CS 371: Huffman Trees Module: Exercise 3: Building Huffman Trees"
 canvasasmtid: "116902"
 canvaspoints: "2"
 canvashalftries: 5

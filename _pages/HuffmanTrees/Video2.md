@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module19/Video2
-title: "CS 371: Module 19: Encoding And Decoding with Binary Codebook Trees"
-excerpt: "CS 371: Module 19: Encoding And Decoding with Binary Codebook Trees"
+permalink: /HuffmanTrees/Video2
+title: "CS 371: Huffman Trees Module: Encoding And Decoding with Binary Codebook Trees"
+excerpt: "CS 371: Huffman Trees Module: Encoding And Decoding with Binary Codebook Trees"
 
 info:
   prev: "./Exercise1"
@@ -15,4 +15,4 @@ Please watch the video below, and click next when you are ready.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module19/BCBTrees_Encode.html" width="800" height="3000"></iframe>
+<iframe src = "../images/HuffmanTrees/BCBTrees_Encode.html" width="800" height="3000"></iframe>
