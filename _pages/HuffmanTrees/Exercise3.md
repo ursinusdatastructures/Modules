@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "HuffmanTrees/Exercise3"
 title: "CS 371: Huffman Trees Module: Exercise 3: Building Huffman Trees"
 excerpt: "CS 371: Huffman Trees Module: Exercise 3: Building Huffman Trees"
-canvasasmtid: "116902"
+canvasasmtid: "146082"
 canvaspoints: "2"
 canvashalftries: 5
 
