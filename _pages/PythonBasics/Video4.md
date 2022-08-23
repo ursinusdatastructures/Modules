@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module1/Video4
-title: "CS 371: Module 1: Python Part 4: Numpy"
-excerpt: "CS 371: Module 1: Python Part 4: Numpy"
+title: "CS 271: Module 1: Python Part 4: Numpy"
+excerpt: "CS 271: Module 1: Python Part 4: Numpy"
 
 info:
   prev: "./Exercise3"

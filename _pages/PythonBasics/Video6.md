@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module1/Video6
-title: "CS 371: Module 1: Classes Part 2"
-excerpt: "CS 371: Module 1: Classes Part 2"
+title: "CS 271: Module 1: Classes Part 2"
+excerpt: "CS 271: Module 1: Classes Part 2"
 
 info:
   prev: "./Exercise5"

@@ -7,10 +7,10 @@ relative_links:
 
 theme: jekyll-theme-slate
 
-title: "CS371"
+title: "CS271"
 description: "Data Structures And Algorithms"
 
-url                      : https://ursinus-cs371-s2021.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ursinus-cs271-f2022.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Modules" # the subpath of your site, e.g. "/blog"
     
 # Reading Files
