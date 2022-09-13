@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /UnionFindModule/Video3
-title: "CS 371: Union Find Data Structure"
-excerpt: "CS 371: Union Find Data Structure"
+title: "CS 271: Union Find Data Structure"
+excerpt: "CS 271: Union Find Data Structure"
 
 info:
   prev: "./Video2"

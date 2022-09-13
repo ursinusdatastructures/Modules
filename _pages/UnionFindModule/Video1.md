@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /UnionFindModule/Video1
-title: "CS 371: Disjoint Set Data Structure"
-excerpt: "CS 371: Module 3: Disjoint Set Data Structures"
+title: "CS 271: Disjoint Set Data Structure"
+excerpt: "CS 271: Module 3: Disjoint Set Data Structures"
 
 info:
   next: "./Exercise1"
@@ -10,18 +10,8 @@ info:
 ---
 
 <p>
-Wtch the two videos below, which discuss the approaches that people came up with in class for disjoint set.  Click the <code>Next</code> button to continue when you're finished
+Watch the video below, which discuss a naive data structure for disjoint set.  Click the <code>Next</code> button to continue when you're finished
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cbu0fJXcYGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UXFNiHHQXPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p></p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GC7yOWAFWLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2>Notes</h2>
-
-<ul>
-<li>In python, the boolean expression <code>val <b>in</b> my_list</code> will evaluate to <code>True</code> if <code>val</code> is an element of <code>my_list</code>, or <code>False</code> otherwise</li>
-<li>In addition to lists, there are sets in python, which are declared using curly braces.  For instance, <code>x = {1, 2, 3}</code>.  The elements in sets are in no particular order.  You can union one set with another by typing <code>x | y</code></li>
-</ul>

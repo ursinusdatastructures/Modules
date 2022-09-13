@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /UnionFindModule/Video2
-title: "CS 371: Disjoint Set Data Structures"
-excerpt: "CS 371: Disjoint Set Data Structures"
+title: "CS 271: Disjoint Set Data Structures"
+excerpt: "CS 271: Disjoint Set Data Structures"
 
 info:
   prev: "./Exercise1"
