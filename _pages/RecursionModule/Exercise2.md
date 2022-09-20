@@ -42,6 +42,7 @@ files:
     height: 500
     code: | 
           def A(m, n, counts, memory = {}, do_print = True):
+              res = 0
               counts[0] += 1
               if (m, n) in memory:
                   return memory[(m, n)]
@@ -52,7 +53,7 @@ files:
                       res = memory[(m-1, 1)]
                   else:
                       res = A(m-1, 1, counts, memory)
-                      memory[m-1, 1] = res
+                      memory[(m-1, 1)] = res
               else:
                   ## TODO: Add memoization here for A(m, n-1)
                   inner = A(m, n-1, counts, memory)
