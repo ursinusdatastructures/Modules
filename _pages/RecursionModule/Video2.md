@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /RecursionModule/Video2
-title: "CS 371: Recursion Module: Towers of Hanoi"
-excerpt: "CS 371: Recursion Module: Towers of Hanoi"
+title: "CS 271: Recursion Module: Towers of Hanoi"
+excerpt: "CS 271: Recursion Module: Towers of Hanoi"
 
 info:
   comments: "true"

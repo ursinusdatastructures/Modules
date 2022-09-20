@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /RecursionModule/Video3
-title: "CS 371: Recursion Module: Memoization"
-excerpt: "CS 371: Recursion Module: Memoization"
+title: "CS 271: Recursion Module: Memoization"
+excerpt: "CS 271: Recursion Module: Memoization"
 
 info:
   comments: "true"

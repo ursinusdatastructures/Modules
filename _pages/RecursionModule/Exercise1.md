@@ -1,8 +1,8 @@
 ---
 layout: exercise_python
 permalink: "/RecursionModule/Exercise1"
-title: "CS 371: Recursion Module: Towers of Hanoi Solution Count"
-excerpt: "CS 371: Recursion Module: Towers of Hanoi Solution Count"
+title: "CS 271: Recursion Module: Towers of Hanoi Solution Count"
+excerpt: "CS 271: Recursion Module: Towers of Hanoi Solution Count"
 canvasasmtid: "157374"
 canvaspoints: "1.5"
 canvashalftries: 5
