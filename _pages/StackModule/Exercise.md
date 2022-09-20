@@ -13,7 +13,7 @@ info:
   points: 2
   instructions: "<p>I've provided you with an implementation of a stack below that uses a linked list.  As I mentioned, a good way to implement a queue is with a doubly-linked list since we can add things to the end in O(1) time and we can remove things from the beginning in O(1) time.  However, it is also possible to implement a queue using two stacks (which is a useful exercise when talking about turing machines and pushdown automata in the theory of computation, FYI).  In this case, the best we can do is O(1) to push at the end of the queue and O(N) to pop from the front of the queue.  Use the two stacks, stack1 and stack2, in the Queue class to accomplish this below.</p>"
   goals:
-    - To implement recursive functions with proper stopping conditions
+    - To implement a queue using two stacks
     
 processor:  
   correctfeedback: "Correct!!" 
