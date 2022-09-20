@@ -19,4 +19,4 @@ Watch the video below and click the <code>Next</code> button to continue when yo
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module10/Memoization.html" width="700" height="3500">
+<iframe src = "../images/Recursion/Memoization.html" width="700" height="3500">
