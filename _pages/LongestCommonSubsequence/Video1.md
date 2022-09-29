@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module13/Video1
-title: "CS 371: Module 11: Longest Common Subsequence Recursive Splitting"
-excerpt: "CS 371: Module 11: Longest Common Subsequence Recursive Splitting"
+permalink: /LCSModule/Video1
+title: "CS 271: Longest Common Subsequence Subproblem Recurrence"
+excerpt: "CS 271: Longest Common Subsequence Subproblem Recurrence"
 
 info:
   comments: "true"
@@ -17,4 +17,4 @@ Please watch the video below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module13/LCSMemoization.html" width="700" height="1000">
+<iframe src = "../images/LCSModule/LCSMemoization.html" width="700" height="1000">

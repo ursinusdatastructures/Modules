@@ -1,9 +1,9 @@
 ---
 layout: exercise_python
-permalink: "Module13/Exercise2"
-title: "CS 371: Module 13: Exercise 2"
-excerpt: "CS 371: Module 13: Exercise 2"
-canvasasmtid: "115038"
+permalink: "LCSModule/Exercise2"
+title: "CS 271: Longest Common Subsequence: Exercise 2"
+excerpt: "CS 271: Longest Common Subsequence: Exercise 2"
+canvasasmtid: "157865"
 canvaspoints: "2"
 canvashalftries: 5
 

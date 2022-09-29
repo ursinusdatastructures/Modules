@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module13/Video2
-title: "CS 371: Module 11: Longest Common Subsequence Dynamic Programming"
-excerpt: "CS 371: Module 11: Longest Common Subsequence Dynamic Programming"
+permalink: /LCSModule/Video2
+title: "CS 271: Longest Common Subsequence Dynamic Programming"
+excerpt: "CS 271: Longest Common Subsequence Dynamic Programming"
 
 info:
   comments: "true"
@@ -22,4 +22,4 @@ Please watch the two videos below, and click the next button when you are finish
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module13/LCSBacktrace.html" width="700" height="2200">
+<iframe src = "../images/LCSModule/LCSBacktrace.html" width="700" height="2200">
