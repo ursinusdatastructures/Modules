@@ -11,7 +11,7 @@ info:
   comments: "true"
   prev: "./Video2"
   points: 2
-  instructions: "<p>Complete the backtracing code to extract a maximal subsequence between two strings.  Note that unlike the sparse matrix code in assignment 3, the code below uses regular 2D python lists for storing the choices, so you index them with <code>choices[i][j]</code>.</p>"
+  instructions: "<p>Complete the backtracing code to extract a maximal subsequence between two strings.  The code below uses regular 2D python lists for storing the choices, so you index them with <code>choices[i][j]</code>.</p>"
   goals:
     - Backtrace through a table of backpointers in a dynamic programming problem to extract an optimal solution
     
