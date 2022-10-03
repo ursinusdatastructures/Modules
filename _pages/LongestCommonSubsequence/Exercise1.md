@@ -53,7 +53,6 @@ files:
                       problem = (len(s1)-1, len(s2)-1)
                       res = 1 + LCS(s1[0:-1], s2[0:-1], mem)
                   else:
-                      ## TODO: Finish memoization here
                       res = max(LCS(s1[0:-1], s2, mem), LCS(s1, s2[0:-1], mem))
               return res
 
