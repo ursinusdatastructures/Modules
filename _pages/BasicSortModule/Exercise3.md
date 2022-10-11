@@ -4,14 +4,14 @@ permalink: "BasicSortingModule/Exercise3"
 title: "CS 271: Sorting Basics Module: Exercise 2"
 excerpt: "CS 271: Sorting Basics Module: Exercise 2"
 canvasasmtid: "158460"
-canvaspoints: "2"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video4"
   next: "./Video5"
-  points: 2
+  points: 1.5
   instructions: "<p>Complete the code below to implement insertion sort in python.</p>"
   goals:
     - Implement the insertion sort algorithm
