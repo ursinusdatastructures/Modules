@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /BasicSortingModule/Video3
-title: "CS 371: Sorting Basics Module: Bubble Sort"
-excerpt: "CS 371: Sorting Basics Module: Bubble Sort"
+title: "CS 271: Sorting Basics Module: Bubble Sort"
+excerpt: "CS 271: Sorting Basics Module: Bubble Sort"
 
 info:
   comments: "true"

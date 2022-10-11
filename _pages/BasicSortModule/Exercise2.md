@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Exercise2
-title: "CS 371: Module 14: Exercise 2"
-excerpt: "CS 371: Module 14: Exercise 2"
+title: "CS 271: Module 14: Exercise 2"
+excerpt: "CS 271: Module 14: Exercise 2"
 
 info:
   comments: "true"

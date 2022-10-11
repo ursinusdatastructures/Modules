@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /BasicSortingModule/Video2
-title: "CS 371: Sorting Basics Module: Brute Force Sorting Theory"
-excerpt: "CS 371: Sorting Basics Module: Brute Force Sorting Theory"
+title: "CS 271: Sorting Basics Module: Brute Force Sorting Theory"
+excerpt: "CS 271: Sorting Basics Module: Brute Force Sorting Theory"
 
 info:
   comments: "true"

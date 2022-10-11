@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /BasicSortingModule/Video5
-title: "CS 371: Sorting Basics Module: Merge Sort"
-excerpt: "CS 371: Sorting Basics Module: Merge Sort"
+title: "CS 271: Sorting Basics Module: Merge Sort"
+excerpt: "CS 271: Sorting Basics Module: Merge Sort"
 
 info:
   comments: "true"
@@ -10,7 +10,7 @@ info:
 ---
 
 <p>
-We will now use recursion to design an algorithm that beats the <b>O(N<SUP>2</SUP>)</b> worst case complexity bound, using recursion.  Please watch the videos below, and be prepared to implement this in the next lab on Wednesday.
+The videos below go over merge sort, which you're in the process of implementing on the lab, and which is a much more efficient &Theta;(N Log N) algorithm
 </p>
 
 <h3>My CS 173 Video on Merge Sort</h3>

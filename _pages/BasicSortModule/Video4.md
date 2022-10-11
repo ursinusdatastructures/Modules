@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /BasicSortingModule/Video4
-title: "CS 371: Sorting Basics Module: Insertion Sort"
-excerpt: "CS 371: Sorting Basics Module: Insertion Sort"
+title: "CS 271: Sorting Basics Module: Insertion Sort"
+excerpt: "CS 271: Sorting Basics Module: Insertion Sort"
 
 info:
   comments: "true"

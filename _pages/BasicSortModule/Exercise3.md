@@ -1,9 +1,9 @@
 ---
 layout: exercise_python
 permalink: "BasicSortingModule/Exercise3"
-title: "CS 371: Sorting Basics Module: Exercise 2"
-excerpt: "CS 371: Sorting Basics Module: Exercise 2"
-canvasasmtid: "144215"
+title: "CS 271: Sorting Basics Module: Exercise 2"
+excerpt: "CS 271: Sorting Basics Module: Exercise 2"
+canvasasmtid: "158460"
 canvaspoints: "2"
 canvashalftries: 5
 

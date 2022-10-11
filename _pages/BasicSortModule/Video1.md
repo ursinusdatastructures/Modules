@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /BasicSortingModule/Video1
-title: "CS 371: Sorting Basics Module: Recursively Enumerating Permutations"
-excerpt: "CS 371: Sorting Basics Module: Recursively Enumerating Permutations"
+title: "CS 271: Sorting Basics Module: Recursively Enumerating Permutations"
+excerpt: "CS 271: Sorting Basics Module: Recursively Enumerating Permutations"
 
 info:
   comments: "true"
