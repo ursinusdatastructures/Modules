@@ -3,15 +3,15 @@ layout: exercise_python
 permalink: "TreesModule/Exercise2"
 title: "CS 371: Trees Module: Exercise 2: Inorder Traversal"
 excerpt: "CS 371: Trees Module: Exercise 2: Inorder Traversal"
-canvasasmtid: "145385"
-canvaspoints: "2"
+canvasasmtid: "158956"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
   next: "./Video3"
-  points: 2
+  points: 1.5
   instructions: "Complete the recursive calls to create a working implementation of inorder traversal."
   goals:
     - Use recursion to implement inorder traversal of a binary tree
