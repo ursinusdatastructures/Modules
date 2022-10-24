@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /TreesModule/Video1
-title: "CS 371: Trees Module: Introduction To Binary Trees"
-excerpt: "CS 371: Trees Module: Introduction To Binary Trees"
+title: "CS 271: Trees Module: Introduction To Binary Trees"
+excerpt: "CS 271: Trees Module: Introduction To Binary Trees"
 
 info:
   next: "./Video1b"

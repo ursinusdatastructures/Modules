@@ -1,8 +1,8 @@
 ---
 layout: exercise_python
 permalink: "TreesModule/Exercise2"
-title: "CS 371: Trees Module: Exercise 2: Inorder Traversal"
-excerpt: "CS 371: Trees Module: Exercise 2: Inorder Traversal"
+title: "CS 271: Trees Module: Exercise 2: Inorder Traversal"
+excerpt: "CS 271: Trees Module: Exercise 2: Inorder Traversal"
 canvasasmtid: "158956"
 canvaspoints: "1.5"
 canvashalftries: 5

@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /TreesModule/Video2
-title: "CS 371: Trees Module: Binary Trees: Inorder Traversal"
-excerpt: "CS 371: Trees Module: Binary Trees: Inorder Traversal"
+title: "CS 271: Trees Module: Binary Trees: Inorder Traversal"
+excerpt: "CS 271: Trees Module: Binary Trees: Inorder Traversal"
 
 info:
   prev: "./Exercise1"

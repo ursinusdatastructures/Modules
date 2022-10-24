@@ -1,8 +1,8 @@
 ---
 layout: exercise_python
 permalink: "TreesModule/Exercise1"
-title: "CS 371: Trees Module: Exercise 1: Constructing Python Trees"
-excerpt: "CS 371: Trees Module: Exercise 1: Constructing Python Trees"
+title: "CS 271: Trees Module: Exercise 1: Constructing Python Trees"
+excerpt: "CS 271: Trees Module: Exercise 1: Constructing Python Trees"
 canvasasmtid: "158955"
 canvaspoints: "1.5"
 canvashalftries: 5

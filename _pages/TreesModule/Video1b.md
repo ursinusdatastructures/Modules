@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /TreesModule/Video1b
-title: "CS 371: Trees Module: Binary Tree Python Objects"
-excerpt: "CS 371: Trees Module: Binary Tree Python Objects"
+title: "CS 271: Trees Module: Binary Tree Python Objects"
+excerpt: "CS 271: Trees Module: Binary Tree Python Objects"
 
 info:
   prev: "./Video1"

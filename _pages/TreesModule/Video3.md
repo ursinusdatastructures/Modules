@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /TreesModule/Video3
-title: "CS 371: Trees Module: Binary Trees Preorder/Postorder"
-excerpt: "CS 371: Trees Module: Binary Trees Preorder/Postorder"
+title: "CS 271: Trees Module: Binary Trees Preorder/Postorder"
+excerpt: "CS 271: Trees Module: Binary Trees Preorder/Postorder"
 
 info:
   prev: "./Exercise2"
