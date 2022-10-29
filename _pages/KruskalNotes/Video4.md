@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /KruskalNotes/Video4
-title: "CS 371: MST Complexity / Applications"
-excerpt: "CS 371: MST Complexity / Applications"
+permalink: /SpanningTrees/Video4
+title: "CS 271: MST Complexity / Applications"
+excerpt: "CS 271: MST Complexity / Applications"
 
 info:
   prev: "./Video3"

@@ -1,11 +1,11 @@
 ---
 layout: module
-permalink: /KruskalNotes/Video2
-title: "CS 371: Kruskal's Algorithm Notes"
-excerpt: "CS 371: Kruskal's Algorithm Notes"
+permalink: /SpanningTrees/Video2
+title: "CS 271: Kruskal's Algorithm Notes"
+excerpt: "CS 271: Kruskal's Algorithm Notes"
 
 info:
-  prev: "./Video2"
+  prev: "./Exercise1"
   next: "./Video3"
 ---
 
