@@ -9,4 +9,4 @@ info:
   comments: "true"
 ---
 
-<a href = "https://ursinus.instructure.com/courses/14918/assignments/156978">Click here</a> to complete a brief pen and paper exercise on Canvas.  Then you will be finished this module!
+<a href = "https://ursinus.instructure.com/courses/16205/assignments/175639">Click here</a> to complete a brief pen and paper exercise on Canvas.  Then you will be finished this module!

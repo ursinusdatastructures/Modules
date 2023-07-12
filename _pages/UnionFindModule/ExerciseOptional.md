@@ -3,6 +3,9 @@ layout: exercise_python
 permalink: "UnionFindModule/OptionalExercise"
 title: "CS 271: Union Find Optional Exercise"
 excerpt: "CS 271: Union Find Optional Exercise"
+canvasasmtid: "175668"
+canvaspoints: "1.5"
+canvashalftries: 5
 
 info:
   comments: "true"

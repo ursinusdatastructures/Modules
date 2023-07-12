@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "/RecursionModule/Exercise2"
 title: "CS 271: Recursion Module: Ackermann Memoization"
 excerpt: "CS 271: Recursion Module: Ackermann Memoization"
-canvasasmtid: "157375"
+canvasasmtid: "175628"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -22,17 +22,11 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("9.20_61.154_13.33")
+    pos.includes("9.23_61.186_13.39")
   incorrectchecks:
     - incorrectcheck: |
-        pos.includes("9.35_61.2258_13.79")
-      feedback: "Try again.  It looks like you're still only using memoization for one of the recursive calls"
-    - incorrectcheck: |
-        pos.includes("9.23_61.186_13.39")
-      feedback: "Try again.  It looks like you're only using memoization for one of the recursive calls in the third case"
-    - incorrectcheck: |
-        pos.includes("9.24_61.216_13.41")
-      feedback: "Try again.  It looks like you're only using memoization for one of the recursive calls in the third case"
+        pos.includes("9.44_61.2432_13.107")
+      feedback: "Try again.  It looks like you're not using any memoization yet.  Are you remembering to check to see if (m, n) is already in the memory?  Are you saving (m, n) in memory the first time you have to compute it?"
 files:
   - filename: "Student Code"
     name: driver
@@ -44,20 +38,14 @@ files:
           def A(m, n, counts, memory = {}, do_print = True):
               res = 0
               counts[0] += 1
-              if (m, n) in memory:
-                  return memory[(m, n)]
+              ## TODO: Add memoization here.  Use the tuple 
+              ## (m, n) as a key in the dictionary
               if m == 0:
                   res = n+1
               elif n == 0:
-                  if (m-1, 1) in memory:
-                      res = memory[(m-1, 1)]
-                  else:
-                      res = A(m-1, 1, counts, memory)
-                      memory[(m-1, 1)] = res
+                  res = A(m-1, 1, counts, memory)
               else:
-                  ## TODO: Add memoization here for A(m, n-1)
                   inner = A(m, n-1, counts, memory)
-                  ## TODO: Add memoization here for A(m-1, inner)
                   res = A(m-1, inner, counts, memory)
               return res
 

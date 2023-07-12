@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "/RecursionModule/Exercise0"
 title: "CS 271: Dictionary Exercise"
 excerpt: "CS 271: Dictionary Exercise"
-canvasasmtid: "157389"
+canvasasmtid: "175629"
 canvaspoints: "1"
 canvashalftries: 5
 

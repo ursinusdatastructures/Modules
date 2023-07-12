@@ -6,7 +6,6 @@ excerpt: "CS 271: Recursion Module: Towers of Hanoi"
 
 info:
   comments: "true"
-  prev: "./Exercise0"
   next: "./Exercise1"
 ---
 
