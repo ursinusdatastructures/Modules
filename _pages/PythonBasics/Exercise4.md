@@ -3,7 +3,7 @@ layout: exercise_pyodide
 permalink: "Module1/Exercise4"
 title: "CS 271: Module 1: Numpy Exercise"
 excerpt: "CS 271: Module 1: Numpy Exercise"
-canvasasmtid: "152490"
+canvasasmtid: "175625"
 canvaspoints: "1.5"
 canvashalftries: 5
 
