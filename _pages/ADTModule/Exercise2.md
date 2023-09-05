@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "/ADTModule/Exercise2"
 title: "CS 271: ADTs: LinkedList Remove All Instances"
 excerpt: "CS 271: ADTs: LinkedList Remove All Instances"
-canvasasmtid: "175602"
+canvasasmtid: "186607"
 canvaspoints: "2"
 canvashalftries: 5
 

@@ -3,7 +3,7 @@ layout: exercise_pyodide
 permalink: "/ADTModule/Exercise1"
 title: "CS 271: ADTs: ArraySet remove"
 excerpt: "CS 271: ADTs: ArraySet remove"
-canvasasmtid: "175602"
+canvasasmtid: "186606"
 canvaspoints: "2"
 canvashalftries: 5
 
