@@ -3,7 +3,7 @@ layout: exercise_pyodide
 permalink: "/EditDistanceModule/Exercise1"
 title: "CS 271: Edit Distance Module: Recursive String Edit Distance"
 excerpt: "CS 271: Edit Distance Module: Recursive String Edit Distance"
-canvasasmtid: "157481"
+canvasasmtid: "175602"
 canvaspoints: "2"
 canvashalftries: 5
 
