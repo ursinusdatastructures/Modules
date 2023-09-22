@@ -1,5 +1,5 @@
 ---
-layout: exercise_pyodide
+layout: exercise_python
 permalink: "/EditDistanceModule/Exercise1"
 title: "CS 271: Edit Distance Module: Recursive String Edit Distance"
 excerpt: "CS 271: Edit Distance Module: Recursive String Edit Distance"
@@ -12,7 +12,6 @@ info:
   prev: "./Video1"
   points: 2
   instructions: "Fill in the code to complete the recursive calls for edit distance."
-  packages: "numpy"
   goals:
     - To use recursion to implement the string edit distance
     
@@ -21,15 +20,15 @@ processor:
   incorrectfeedback: "Try again"
   submitformlink: false
   feedbackprocess: | 
-    feedback.setValue(pyodide.globals.res);
+    var pos = feedbackString.trim();
   correctcheck: |
-    pyodide.globals.res == "3.4.5"
+    pos.includes("1.4.4")
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == "0.0.0"
+        pos.includes("0.0.0")
       feedback: "Try again.  It looks like you're not filling in all of the costs"
     - incorrectcheck: |
-        pyodide.globals.res == "5.6.10"
+        pos.includes("2.6.6")
       feedback: "Try again.  Be careful to only add 1 to the case where both are chopped off the end if they don't match"
 
 files:
@@ -80,9 +79,9 @@ files:
     isreadonly: true
     isvisible: true
     code: |
-        res = "{}.".format(edit("chris", "chase"))
-        res += "{}.".format(edit("school", "fools"))
-        res += "{}".format(edit("topology", "topography"))
+        res = "{}.".format(edit("chr", "cha"))
+        res += "{}.".format(edit("scho", "fool"))
+        res += "{}".format(edit("logy", "grap"))
         print(res)
         
 ---
