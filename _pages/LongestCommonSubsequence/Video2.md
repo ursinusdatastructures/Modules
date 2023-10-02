@@ -11,7 +11,7 @@ info:
 ---
 
 <p>
-Please watch the two videos below, and click the next button when you are finished.
+Please watch the three video clips below, and click the next button when you are finished.
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FExCTAVOUUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -20,6 +20,8 @@ Please watch the two videos below, and click the next button when you are finish
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WrbO-4m_NUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mYKTys3UuuI?si=1GLLtHAictna6Nuf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h2>Notes</h2>
 
-<iframe src = "../images/LCSModule/LCSBacktrace.html" width="700" height="2200">
+<iframe src = "../images/LCSModule/LCSBacktrace.html" width="100%" height="2200">

@@ -13,8 +13,8 @@ info:
 Please watch the video below, and click the next button when you are finished.
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GRpAJkRQsHI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mYKTys3UuuI?si=M647Uvi_2_krsuCC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h2>Notes</h2>
 
-<iframe src = "../images/LCSModule/LCSMemoization.html" width="700" height="1000">
+<iframe src = "../images/LCSModule/LCSMemoization.html" width="100%" height="1300">

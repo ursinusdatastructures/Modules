@@ -27,6 +27,13 @@ processor:
     - incorrectcheck: |
         pos.includes("taerg tt llo sur")
       feedback: "Try again.  It looks like you may be adding the characters in the reverse order.  Try seq = s1[i] + seq"
+    - incorrectcheck: |
+        pos.includes("rrrrules are nnot alllll  thaaaaatttttt greaaaaaaaaatt")
+      feedback: "Try again.  Close!  Be sure to only prepend the character if <code>s1[i] == s2[j]</code>"
+    - incorrectcheck: |
+        pos.includes("||")
+      feedback: "Try again.  Close!  Be sure to prepend <code>s1[i]</code> to <code>seq</code> if <code>s1[i] == s2[j]</code>"
+    
 files:
   - filename: "LCS"
     name: lcs
@@ -104,7 +111,7 @@ files:
     code: |
         s1 = "rules are not all that great"
         s2 = "Ursinus college students are great students"
-        print(LCS(s1, s2))
+        print("|" + LCS(s1, s2) + "|")
         
         
 ---
