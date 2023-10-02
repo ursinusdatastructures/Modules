@@ -62,7 +62,7 @@ files:
                       if s1[i] == s2[j]:
                           res = 1
                           if i > 0 and j > 0:
-                              choices[i][j] = 0
+                              choices[i][j] = DIAG
                               res += table[i-1][j-1]
                       else:
                           res1 = 0
@@ -79,9 +79,9 @@ files:
                               res = res2
                       table[i][j] = res
               for j in range(N):
-                  choices[0][j] = 2
+                  choices[0][j] = LEFT
               for i in range(M):
-                  choices[i][0] = 1
+                  choices[i][0] = UP
               i = M-1
               j = N-1
               seq = ""
