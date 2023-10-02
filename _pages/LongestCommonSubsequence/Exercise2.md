@@ -48,10 +48,14 @@ files:
               -------
               string: A maximal subsequence between s1 and s2
               """
+              DIAG = 0
+              UP = 1
+              LEFT = 2
+
               M = len(s1)
               N = len(s2)
               table = [[0]*N for i in range(M)]
-              choices = [[0]*N for i in range(M)]
+              choices = [[DIAG]*N for i in range(M)]
               for i in range(M):
                   for j in range(N):
                       res = 0
@@ -68,10 +72,10 @@ files:
                           if j > 0:
                               res2 = table[i][j-1]
                           if res1 > res2:
-                              choices[i][j] = 1
+                              choices[i][j] = UP
                               res = res1
                           else:
-                              choices[i][j] = 2
+                              choices[i][j] = LEFT
                               res = res2
                       table[i][j] = res
               for j in range(N):
