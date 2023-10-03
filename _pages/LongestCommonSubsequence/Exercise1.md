@@ -12,7 +12,7 @@ info:
   prev: "./Video1"
   next: "./Video2"
   points: 2
-  instructions: "<p>Complete memoization in the else statement of the recursive LCS code.  If you're not doing memoization properly and have to repeat problems, the recursion will take a very long time for the third example in the test code block, and <b>your browser will lock up</b>.</p>"
+  instructions: "<p>Complete memoization in the recursive LCS code.  If you're not doing memoization properly and have to repeat problems, the recursion will take a very long time for the third example in the test code block, and <b>your browser will lock up</b>.</p>"
   goals:
     - Use memoization to speed up recursive evaluations with overlapping subproblems
     
@@ -46,6 +46,9 @@ files:
                   Second string
               mem: A dictionary from tuples (i, j) -> LCS(s1[0:i], s2[0:j])
               """
+              key = (len(s1), len(s2)) # This is how we'll index the problem
+              ## TODO: Check to see if the solution to key is already in mem
+              ## and if so, just use that solution
               res = 0
               if len(s1) != 0 and len(s2) != 0:
                   if s1[-1] == s2[-1]:
@@ -54,6 +57,7 @@ files:
                       res = 1 + LCS(s1[0:-1], s2[0:-1], mem)
                   else:
                       res = max(LCS(s1[0:-1], s2, mem), LCS(s1, s2[0:-1], mem))
+                  ## TODO: Remember the solution in mem for the next time
               return res
 
 
