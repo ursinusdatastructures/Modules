@@ -11,7 +11,7 @@ info:
   comments: "true"
   prev: "./Video2"
   points: 2
-  instructions: "<p>Complete the backtracing code to extract a maximal subsequence between two strings.  The code below uses regular 2D python lists for storing the choices, so you index them with <code>choices[i][j]</code>.</p>"
+  instructions: "<p>Complete the backtracing code to extract a maximal subsequence between two strings.  The code below uses regular 2D python lists for storing the choices, so you index them with <code>choices[i][j]</code>.  <b>NOTE:</b> Running the code as is will be an infinite loop.  So you'll need to decrement <code>i</code> and <code>j</code> within the loop at the appropriate times.</p>"
   goals:
     - Backtrace through a table of backpointers in a dynamic programming problem to extract an optimal solution
     
