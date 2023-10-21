@@ -1,12 +1,11 @@
 ---
 layout: module
 permalink: /RadixFisherYates/Video2
-title: "CS 371: Sorting Module 2: Fisher-Yates Shuffling"
-excerpt: "CS 371: Sorting Module 2: Fisher-Yates Shuffling"
+title: "CS 271: Fisher-Yates Shuffling"
+excerpt: "CS 271: Fisher-Yates Shuffling"
 
 info:
   comments: "true"
-  prev: "./Exercise1"
   next: "./Exercise2"
 ---
 
@@ -18,4 +17,4 @@ Please watch the video below, and click the next button when you are finished.
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module16/FisherYates.html" width="800" height="3150">
+<iframe src = "../images/Module16/FisherYates.html" width="100%" height="3150">

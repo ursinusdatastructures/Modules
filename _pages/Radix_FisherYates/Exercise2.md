@@ -1,9 +1,9 @@
 ---
-layout: exercise_pyodide
+layout: exercise_pyodide_new
 permalink: "RadixFisherYates/Exercise2"
-title: "CS 371: Sorting Module 2: Exercise 2: Fisher-Yates Shuffling"
-excerpt: "CS 371: Sorting Module 2: Exercise 2: Fisher-Yates Shuffling"
-canvasasmtid: "145125"
+title: "CS 271: Fisher-Yates Shuffling Code"
+excerpt: "CS 271: Fisher-Yates Shuffling Code"
+canvasasmtid: "189139"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -21,12 +21,12 @@ processor:
   incorrectfeedback: "Try again"
   submitformlink: false
   feedbackprocess: | 
-    feedback.setValue(pyodide.globals.arr);
+    feedback.setValue(pyodide.globals.get("arr"));
   correctcheck: |
-    pyodide.globals.arr == "[2 8 4 9 1 6 7 3 0 5]"
+    pyodide.globals.get("arr") == "[2 8 4 9 1 6 7 3 0 5]"
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.arr == "[2 8 4 1 9 6 7 3 0 5]"
+        pyodide.globals.get("arr") == "[2 8 4 1 9 6 7 3 0 5]"
       feedback: "Try again.  You're very close!  But np.random.randint(N-i-1) only returns indices up to N-i-2"
 
 files:
