@@ -12,7 +12,7 @@ info:
   prev: "./Video2"
   next: "./Video3"
   points: 2
-  instructions: "Fill in the method <code>get_reachable_2_hops</code> to compute the set of vertices that are reachable from a particular vertex in <b>exactly</b> 2 hops."
+  instructions: "Fill in the method <code>get_reachable_2_hops</code> to compute the set of vertices that are reachable from a particular vertex within 1 or 2 hops."
   goals:
     - Manipulate neighbor data structure and sets in graphs
     
@@ -23,11 +23,14 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("[0, 1, 2, 3, 4]_[1, 4, 5]")
+    pos.includes("[0, 1, 2, 3, 4]_[1, 3, 4, 5]")
   incorrectchecks:
     - incorrectcheck: |
         pos.includes("[]_[]")
       feedback: "Try again.  It looks like you're still returning empty sets"
+    - incorrectcheck: |
+        pos.includes("[0, 1, 2, 3, 4]_[1, 4, 5]")
+      feedback: "Try again.  It looks like you're only returning exactly two hops!  Be sure also to include the 1 hop vertices, which you can get directly from the neighbors"
 files:
   - filename: "Tree Code"
     name: tree
@@ -56,8 +59,8 @@ files:
               def get_reachable_2_hops(self, u):
                   """
                   Fill in the set of all vertices that are reachable
-                  from u after exactly two hops; that is, v is in this
-                  reachable set if there exists some path u->k->v
+                  from u after one or two hops; that is, v is in this
+                  reachable set if there exists some path u->v or u->k->v
                   """
                   reachable = set([])
                   ## TODO: Fill this in
