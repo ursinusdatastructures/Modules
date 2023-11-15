@@ -3,15 +3,15 @@ layout: exercise_python
 permalink: "Graphs/Exercise2"
 title: "CS 271: Graph 2 hops"
 excerpt: "CS 271: Graph 2 Hops"
-canvasasmtid: "175636"
-canvaspoints: "1.5"
+canvasasmtid: "190326"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video2"
   next: "./Video3"
-  points: 1.5
+  points: 2
   instructions: "Fill in the method <code>get_reachable_2_hops</code> to compute the set of vertices that are reachable from a particular vertex in <b>exactly</b> 2 hops."
   goals:
     - Manipulate neighbor data structure and sets in graphs
