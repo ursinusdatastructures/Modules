@@ -23,7 +23,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("1.6_2.0")
+    pos.includes("1.6_2")
   incorrectchecks:
     - incorrectcheck: |
         pos.includes("0_0")
