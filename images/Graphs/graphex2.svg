@@ -28,12 +28,12 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.8116734"
-     inkscape:cx="308.83049"
-     inkscape:cy="195.67544"
+     inkscape:cx="338.6372"
+     inkscape:cy="200.91922"
      inkscape:window-width="1328"
-     inkscape:window-height="970"
-     inkscape:window-x="1920"
-     inkscape:window-y="93"
+     inkscape:window-height="973"
+     inkscape:window-x="-19"
+     inkscape:window-y="56"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -100,6 +100,20 @@
        id="path4318-6"
        cx="89.339012"
        cy="87.641953"
+       rx="1.5364708"
+       ry="1.5544565" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.499999"
+       id="path4318-6-3"
+       cx="112.89203"
+       cy="84.250542"
+       rx="1.5364708"
+       ry="1.5544565" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.499999"
+       id="path4318-6-6"
+       cx="118.73377"
+       cy="70.66848"
        rx="1.5364708"
        ry="1.5544565" />
     <ellipse
@@ -252,5 +266,31 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 67.472856,78.093585 c -3.196513,-3.68731 3.433905,-12.255825 6.080234,-6.632123 0.427197,3.39377 -3.066855,6.082758 -6.080234,6.632123 z"
        id="path44690" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="112.73167"
+       y="90.975372"
+       id="text1782"><tspan
+         sodipodi:role="line"
+         id="tspan1780"
+         style="stroke-width:0.264583"
+         x="112.73167"
+         y="90.975372">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="124.54691"
+       y="72.056419"
+       id="text2302"><tspan
+         sodipodi:role="line"
+         id="tspan2300"
+         style="stroke-width:0.264583"
+         x="124.54691"
+         y="72.056419">6</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 89.859967,88.56592 23.399573,-4.441441 4.90527,-13.105938"
+       id="path2535" />
   </g>
 </svg>
