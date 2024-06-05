@@ -1,11 +1,11 @@
 ---
 layout: python
 
-formprocessor: "https://mathcs.ursinus.edu:8192/"
+formprocessor: "https://ursinus.iad1.qualtrics.com/jfe/form/SV_ekV12wvYLwvU75A"
 enctype: "application/x-www-form-urlencoded"
 facultyemail: "ctralie@ursinus.edu"
 
-formprocessordirections: "Clicking Run below will check your work and, if it passes, will submit your work automatically. <strong>If you are not on the campus network, you must be connected to the VPN for submission to be successful!  You will receive a copy of your code via e-mail, so you'll know that it was submitted if you receive that e-mail!</strong>  VPN access requires Multi-Factor Authentication, which sends you a code when you log into the network.  Instructions on configuring these for your account can be found <a href=\"https://www.ursinus.edu/offices/information-technology/technology-support/hardware-and-software-help/remote-connections-and-vpn/\">here</a>."
+formprocessordirections: "Clicking Run below will check your work and, if it passes, will submit your work automatically. <strong>This should be reflected on canvas in a couple of minutes</strong>"
 
 submitformlinkdirections: "Clicking Run below will check your work and, if it passes, make a page appear above that you can use to submit your work or with further instructions."
 
@@ -244,7 +244,7 @@ mynetid: ctralie
             var xhttp = new XMLHttpRequest();
             xhttp.onerror = function(e){
                 if (vpnwarn) {
-                    alert("Unable to submit.  Are you connected to the VPN?  Please try to submit again!");
+                    alert("Unable to submit.  Please try to submit again!");
                 }
             };
 
@@ -252,7 +252,6 @@ mynetid: ctralie
             xhttp.setRequestHeader("Content-type", "{{ layout.enctype | strip }}");
             
             var formdata = new FormData();
-            formdata.append("facultyemail", "{{ layout.facultyemail | strip }}"); // required
             formdata.append("magic", "ursinus"); // required
             formdata.append("title", "{{ page.title | strip }}"); // required
             formdata.append("studentnetid", document.getElementById("studentnetid").value); //required
