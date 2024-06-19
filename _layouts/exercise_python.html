@@ -1,7 +1,7 @@
 ---
 layout: python
 
-formprocessor: "https://ursinus.iad1.qualtrics.com/jfe/form/SV_ekV12wvYLwvU75A"
+formprocessor: "https://forms.office.com/Pages/ResponsePage.aspx?id=AxwfkomGYE6nIvXqWB4A_nIJo29clMpGiv8nq8FL3odUM0RONlk4MVpWM0oxQ1hDQTlVUUZGSFJLSi4u&rea93eef7d49340229a7bce32c271def1=magic&rc7ee73f3a5fb40ef97df30fd91b76e5e=title&raefb4937d6934da39139c1271ebc9f11=studentnetid&ra87702e877e5419193a4f88bd9f2aa3d=code&r087f3b9fb5b543568bd5e42d538491cb=canvasasmtid&raba5147d248646e2b321b0fcaf2fb7b3=canvaspoints&r86fe5e43a24444978a7939c077b7c12a=canvashalfcredit"
 enctype: "application/x-www-form-urlencoded"
 facultyemail: "ctralie@ursinus.edu"
 
@@ -217,7 +217,7 @@ mynetid: ctralie
         <!-- https://stackoverflow.com/questions/7542586/new-formdata-application-x-www-form-urlencoded -->
         function urlencodeFormData(fd){
             var s = '';
-            function encode(s){ return encodeURIComponent(s).replace(/%20/g,'+'); }
+            function encode(s){ return encodeURIComponent(s); }
             for(var pair of fd.entries()){
                 if(typeof pair[1]=='string'){
                     s += (s?'&':'') + encode(pair[0])+'='+encode(pair[1]);
@@ -234,39 +234,40 @@ mynetid: ctralie
          function postCode(vpnwarn, halfcredit) {
             <!-- Setting a layout.formprocessor will send a POST request to a form processor -->
             {% if layout.formprocessor and layout.formprocessor != false %}
-            submitcode = '';
+            submitCode = '';
             
             for (var i in editors) {
-                submitcode += editors[i].getValue();
-                submitcode += "\n\n";
+                submitCode += editors[i].getValue();
+                submitCode += "\n\n";
             }
             
-            var xhttp = new XMLHttpRequest();
+            let url = "{{layout.formprocessor}}";
+            url = url.replace("magic", encodeURIComponent("ursinus"));
+            url = url.replace("title", encodeURIComponent("{{ page.title | strip }}"));
+            url = url.replace("studentnetid", encodeURIComponent(document.getElementById("studentnetid").value));
+            url = url.replace("code", encodeURIComponent(submitCode));
+            {% if page.canvasasmtid %}
+            url = url.replace("canvasasmtid", encodeURIComponent("{{page.canvasasmtid}}"))
+            {% endif %}
+            {% if page.canvaspoints %}
+            url = url.replace("canvaspoints", "{{page.canvaspoints}}");
+            {% endif %}
+            if (halfcredit) {
+                url = url.replace("canvashalfcredit", encodeURIComponent(true));
+            }
+            window.open(url);
+
+            /*var xhttp = new XMLHttpRequest();
             xhttp.onerror = function(e){
                 if (vpnwarn) {
                     alert("Unable to submit.  Please try to submit again!");
                 }
             };
 
-            xhttp.open("POST", "{{ layout.formprocessor | strip }}", true)
-            xhttp.setRequestHeader("Content-type", "{{ layout.enctype | strip }}");
+            xhttp.open("GET", "{{ layout.formprocessor | strip }}", true)
             
-            var formdata = new FormData();
-            formdata.append("magic", "ursinus"); // required
-            formdata.append("title", "{{ page.title | strip }}"); // required
-            formdata.append("studentnetid", document.getElementById("studentnetid").value); //required
-            formdata.append("code", submitcode);
-            {% if page.canvasasmtid %}
-            formdata.append("canvasasmtid", "{{page.canvasasmtid}}");
-            {% endif %}
-            {% if page.canvaspoints %}
-            formdata.append("canvaspoints", "{{page.canvaspoints}}");
-            {% endif %}
-            if (halfcredit) {
-                formdata.append("canvashalfcredit", true);
-            }
-            
-            xhttp.send(urlencodeFormData(formdata));                    
+
+            xhttp.send();*/             
             {% endif %}
         }
 
