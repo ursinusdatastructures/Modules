@@ -10,7 +10,6 @@ canvashalftries: 5
 info:
   comments: "true"
   prev: "./Video1"
-  next: "./Video2"
   points: 2
   instructions: "<p>Finish implementing the <code>remove</code> method in the <code>ArraySet</code> class</p>"
   packages: "numpy"
