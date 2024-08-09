@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "BasicSortingModule/Exercise3"
 title: "CS 271: Sorting Basics Module: Exercise 2"
 excerpt: "CS 271: Sorting Basics Module: Exercise 2"
-canvasasmtid: "175632"
+canvasasmtid: "207300"
 canvaspoints: "1.5"
 canvashalftries: 5
 

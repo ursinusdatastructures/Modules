@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "/StackModule/Exercise"
 title: "CS 271: Stacks And Queues Exercise"
 excerpt: "CS 271: Stacks And Queues Exercise"
-canvasasmtid: "175634"
+canvasasmtid: "207253"
 canvaspoints: "2"
 canvashalftries: 5
 

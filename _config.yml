@@ -13,6 +13,13 @@ description: "Data Structures And Algorithms"
 url                      : https://ursinusdatastructures.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Modules" # the subpath of your site, e.g. "/blog"
     
+formprocessor: https://docs.google.com/forms/d/e/1FAIpQLSfsMXit-B0msBKL_8mqjZoCGxhSFHyBElEDUVCrhI44czE6Ng/formResponse?&submit=Submit&usp=pp_url&entry.158337439=
+
+pubkey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe+zW9A86dMRe7BbTKcU0dj9ig5MYDozpHjBXb07OXKI5/r8kvcg+/VH1AzC0/6yAYcZ4+uU07udEItnC47SdDvgsPa8QXdfRiWilmc5mu41gHjZmjPalD1VvS9rHzBE86z2VRsaS5uaDQ/AdtbY8eA7H4KX0g+qIj2LeUQ8wIlwIDAQAB
+
+
+facultyemail: "ctralie@ursinus.edu"
+
 # Reading Files
 include:
   - .htaccess

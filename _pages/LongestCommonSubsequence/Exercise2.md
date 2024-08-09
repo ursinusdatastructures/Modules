@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "LCSModule/Exercise2"
 title: "CS 271: Longest Common Subsequence: Exercise 2"
 excerpt: "CS 271: Longest Common Subsequence: Exercise 2"
-canvasasmtid: "175619"
+canvasasmtid: "207282"
 canvaspoints: "2"
 canvashalftries: 5
 

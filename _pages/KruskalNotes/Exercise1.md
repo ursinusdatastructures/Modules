@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "SpanningTrees/Exercise1"
 title: "CS 271: Exercise on Constructing Spanning Trees"
 excerpt: "CS 271: Exercise on Constructing Spanning Trees"
-canvasasmtid: "175633"
+canvasasmtid: "207301"
 canvaspoints: "2"
 canvashalftries: 5
 

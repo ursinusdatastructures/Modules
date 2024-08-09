@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "UnionFindModule/Exercise1"
 title: "CS 271: Disjoint Set Naive Implementation"
 excerpt: "CS 271: Disjoint Set Naive Implementation"
-canvasasmtid: "175601"
+canvasasmtid: "207257"
 canvaspoints: "1.5"
 canvashalftries: 5
 

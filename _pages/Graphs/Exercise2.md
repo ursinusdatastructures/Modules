@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "Graphs/Exercise2"
 title: "CS 271: Graph 2 hops"
 excerpt: "CS 271: Graph 2 Hops"
-canvasasmtid: "190326"
+canvasasmtid: "207264"
 canvaspoints: "2"
 canvashalftries: 5
 

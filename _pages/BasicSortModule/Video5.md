@@ -10,7 +10,7 @@ info:
 ---
 
 <p>
-The videos below go over merge sort, which you'll implement in the next lab, and which is a much more efficient &Theta;(N Log N) algorithm.  Watch the videos below, and <a href = "https://ursinus.instructure.com/courses/16205/quizzes/24270">click here</a> to answer a couple of pre-lab questions.
+The videos below go over merge sort, which you'll implement in the next lab, and which is a much more efficient &Theta;(N Log N) algorithm.  Watch the videos below, and <a href = "https://ursinus.instructure.com/courses/18044/quizzes/26758">click here</a> to answer a couple of pre-lab questions.
 </p>
 
 <h3>My CS 173 Video on Merge Sort</h3>

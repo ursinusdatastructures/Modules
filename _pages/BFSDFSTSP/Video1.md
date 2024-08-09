@@ -8,7 +8,7 @@ info:
   next: "./Video2"
 ---
 
-Watch the video below.  When you are finished, <a href = "https://ursinus.instructure.com/courses/16205/quizzes/24568">click here</a> to complete a brief exercise, then click next to continue
+Watch the video below.  When you are finished, <a href = "https://ursinus.instructure.com/courses/18044/quizzes/26755">click here</a> to complete a brief exercise, then click next to continue
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ocl_ffmYd74?si=DL9yMAqO99tLPTBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

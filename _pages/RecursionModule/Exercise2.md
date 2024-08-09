@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "/RecursionModule/Exercise2"
 title: "CS 271: Recursion Module: Ackermann Memoization"
 excerpt: "CS 271: Recursion Module: Ackermann Memoization"
-canvasasmtid: "175628"
+canvasasmtid: "207297"
 canvaspoints: "1.5"
 canvashalftries: 5
 

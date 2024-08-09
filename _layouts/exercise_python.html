@@ -1,10 +1,6 @@
 ---
 layout: python
 
-formprocessor: "https://forms.office.com/Pages/ResponsePage.aspx?id=AxwfkomGYE6nIvXqWB4A_nIJo29clMpGiv8nq8FL3odUM0RONlk4MVpWM0oxQ1hDQTlVUUZGSFJLSi4u&rea93eef7d49340229a7bce32c271def1=magic&rc7ee73f3a5fb40ef97df30fd91b76e5e=title&raefb4937d6934da39139c1271ebc9f11=studentnetid&ra87702e877e5419193a4f88bd9f2aa3d=code&r087f3b9fb5b543568bd5e42d538491cb=canvasasmtid&raba5147d248646e2b321b0fcaf2fb7b3=canvaspoints&r86fe5e43a24444978a7939c077b7c12a=canvashalfcredit"
-enctype: "application/x-www-form-urlencoded"
-facultyemail: "ctralie@ursinus.edu"
-
 formprocessordirections: "Clicking Run below will check your work and, if it passes, will submit your work automatically. <strong>This should be reflected on canvas in a couple of minutes</strong>"
 
 submitformlinkdirections: "Clicking Run below will check your work and, if it passes, make a page appear above that you can use to submit your work or with further instructions."
@@ -15,6 +11,7 @@ mynetid: ctralie
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jsencrypt.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/skel.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/util.js"></script>
 <script src="{{site.baseurl}}/assets/js/main.js"></script>
@@ -180,6 +177,8 @@ mynetid: ctralie
         </script>
 
         <script>
+        const crypt = new JSEncrypt();
+        crypt.setPublicKey("{{ site.pubkey }}");
         let canvas = document.getElementById("pscanvas");
         let correctArea = document.getElementById("correctArea");
         let correctlyAnswered = false;
@@ -232,42 +231,33 @@ mynetid: ctralie
          * @param {boolean} halfcredit Whether this is a half credit submission
          */
          function postCode(vpnwarn, halfcredit) {
-            <!-- Setting a layout.formprocessor will send a POST request to a form processor -->
-            {% if layout.formprocessor and layout.formprocessor != false %}
+            {% if site.formprocessor and site.formprocessor != false %}
             submitCode = '';
             
             for (var i in editors) {
                 submitCode += editors[i].getValue();
                 submitCode += "\n\n";
             }
-            
-            let url = "{{layout.formprocessor}}";
-            url = url.replace("magic", encodeURIComponent("ursinus"));
-            url = url.replace("title", encodeURIComponent("{{ page.title | strip }}"));
-            url = url.replace("studentnetid", encodeURIComponent(document.getElementById("studentnetid").value));
-            url = url.replace("code", encodeURIComponent(submitCode));
+
+            let payload = {
+                magic: "ursinus",
+                title: "{{ page.title | strip }}",
+                studentnetid: document.getElementById("studentnetid").value,
+                code: submitCode
+            }
             {% if page.canvasasmtid %}
-            url = url.replace("canvasasmtid", encodeURIComponent("{{page.canvasasmtid}}"))
+            payload.canvasasmtid = {{ page.canvasasmtid }};
             {% endif %}
             {% if page.canvaspoints %}
-            url = url.replace("canvaspoints", "{{page.canvaspoints}}");
+            payload.canvaspoints = {{ page.canvaspoints }};
             {% endif %}
             if (halfcredit) {
-                url = url.replace("canvashalfcredit", encodeURIComponent(true));
+                payload.canvashalfcredit = true;
             }
-            window.open(url);
-
-            /*var xhttp = new XMLHttpRequest();
-            xhttp.onerror = function(e){
-                if (vpnwarn) {
-                    alert("Unable to submit.  Please try to submit again!");
-                }
-            };
-
-            xhttp.open("GET", "{{ layout.formprocessor | strip }}", true)
+            payload = JSON.stringify(payload);
             
-
-            xhttp.send();*/             
+            window.open("{{site.formprocessor}}"+payload);
+                       
             {% endif %}
         }
 

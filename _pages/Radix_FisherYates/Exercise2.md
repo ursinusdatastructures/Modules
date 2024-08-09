@@ -3,7 +3,7 @@ layout: exercise_pyodide_new
 permalink: "RadixFisherYates/Exercise2"
 title: "CS 271: Fisher-Yates Shuffling Code"
 excerpt: "CS 271: Fisher-Yates Shuffling Code"
-canvasasmtid: "189139"
+canvasasmtid: "207263"
 canvaspoints: "2"
 canvashalftries: 5
 

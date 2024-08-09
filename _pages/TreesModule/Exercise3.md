@@ -3,7 +3,7 @@ layout: exercise_python
 permalink: "TreesModule/Exercise3"
 title: "CS 271: Trees Module: Exercise 3: Preorder Traversal"
 excerpt: "CS 271: Trees Module: Exercise 3: Preorder Traversal"
-canvasasmtid: "175638"
+canvasasmtid: "207305"
 canvaspoints: "1.5"
 canvashalftries: 5
 
