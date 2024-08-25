@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "BasicSortingModule/Exercise1"
 title: "CS 271: Sorting Basics Module: Exercise 1"
 excerpt: "CS 271: Sorting Basics Module: Exercise 1"
@@ -29,7 +30,7 @@ processor:
         pos.includes("6:set().41:set().94:set()")
       feedback: "Try again.  It looks like you aren't initiating the recursive calls"
 files:
-  - filename: "BruteSort"
+  - filename: "student.py"
     name: brutesort
     ismain: false
     isreadonly: false
@@ -40,7 +41,6 @@ files:
               temp = arr[i]
               arr[i] = arr[j]
               arr[j] = temp
-
 
           def is_inorder(arr):
               """
@@ -78,7 +78,7 @@ files:
                       swap(arr, i, idx)
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -87,4 +87,5 @@ files:
         brutesort([51, 21, 66, 69, 56, 13, 44, 6])
         brutesort([23, 1, 15, 24, 47, 29])
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "BasicSortingModule/Exercise3"
 title: "CS 271: Sorting Basics Module: Exercise 2"
 excerpt: "CS 271: Sorting Basics Module: Exercise 2"
@@ -29,7 +30,7 @@ processor:
         pos.includes("6:set().41:set().94:set()")
       feedback: "Try again.  It looks like you aren't initiating the recursive calls"
 files:
-  - filename: "InsertionSort"
+  - filename: "student.py"
     name: insertionsort
     ismain: false
     isreadonly: false
@@ -56,7 +57,7 @@ files:
                   # arr[j] < arr[j-1], swap 
                   # the indices j and j-1 and decrement j
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -69,4 +70,5 @@ files:
         insertionsort(arr)
         print(arr)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
