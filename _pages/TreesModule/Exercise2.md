@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "TreesModule/Exercise2"
 title: "CS 271: Trees Module: Exercise 2: Inorder Traversal"
 excerpt: "CS 271: Trees Module: Exercise 2: Inorder Traversal"
@@ -29,7 +30,7 @@ processor:
         pos.includes("4.9.")
       feedback: "Try again.  It looks like you haven't finished filling in the tree yet"
 files:
-  - filename: "Tree Code"
+  - filename: "tree.py"
     name: tree
     ismain: false
     isreadonly: true
@@ -68,7 +69,7 @@ files:
               T.root.right = make_right_subtree()
               return T
 
-  - filename: "Inorder Code"
+  - filename: "student.py"
     name: inorder
     ismain: false
     isreadonly: false
@@ -81,11 +82,12 @@ files:
               ## an object "obj" in python is not none is 
               ## to simply say
               ## if obj:
+              ## Make sure you understand the code in tree.py before you continue
               print(node.value, end='.')
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -93,4 +95,6 @@ files:
     code: |
         T = make_tree()
         inorder(T.root)
+
+openFilesOnLoad: ["main.py", "tree.py", "student.py"]
 ---

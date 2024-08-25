@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "TreesModule/Exercise3"
 title: "CS 271: Trees Module: Exercise 3: Preorder Traversal"
 excerpt: "CS 271: Trees Module: Exercise 3: Preorder Traversal"
@@ -28,7 +29,7 @@ processor:
         pos.includes("3.8.9.7.13.14.12.20.15.10")
       feedback: "Try again.  It looks like you implemented postorder.  Move the print statement to before the recursive calls"
 files:
-  - filename: "Tree Code"
+  - filename: "tree.py"
     name: tree
     ismain: false
     isreadonly: true
@@ -67,7 +68,7 @@ files:
               T.root.right = make_right_subtree()
               return T
 
-  - filename: "Inorder Code"
+  - filename: "student.py"
     name: inorder
     ismain: false
     isreadonly: false
@@ -77,11 +78,12 @@ files:
               ## TODO: Finish this.  As a stopping
               ## condition, be sure to only visit a child
               ## node if it is not None.
+              ## Make sure you understand the code in tree.py before you continue
               print(node.value, end='.')
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -89,4 +91,6 @@ files:
     code: |
         T = make_tree()
         preorder(T.root)
+
+openFilesOnLoad: ["main.py", "tree.py", "student.py"]
 ---

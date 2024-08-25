@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "TreesModule/Exercise1"
 title: "CS 271: Trees Module: Exercise 1: Constructing Python Trees"
 excerpt: "CS 271: Trees Module: Exercise 1: Constructing Python Trees"
@@ -30,7 +31,7 @@ processor:
         pos.includes("4.9.")
       feedback: "Try again.  It looks like you haven't finished filling in the tree yet"
 files:
-  - filename: "Tree Code"
+  - filename: "student.py"
     name: tree
     ismain: false
     isreadonly: false
@@ -62,7 +63,7 @@ files:
               return T
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -70,4 +71,6 @@ files:
     code: |
         T = make_tree()
         traverse(T.root)
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---
