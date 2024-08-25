@@ -10,15 +10,16 @@ theme: jekyll-theme-slate
 title: "CS271"
 description: "Data Structures And Algorithms"
 
-url                      : https://ursinusdatastructures.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/Modules" # the subpath of your site, e.g. "/blog"
+url                      : https://ursinusdatastructures.github.io 
+baseurl                  : "/Modules" 
     
-formprocessor: https://docs.google.com/forms/d/e/1FAIpQLSfsMXit-B0msBKL_8mqjZoCGxhSFHyBElEDUVCrhI44czE6Ng/formResponse?&submit=Submit&usp=pp_url&entry.158337439=
+formlink: https://docs.google.com/forms/d/e/1FAIpQLSfPT74-Mt3Xn2mo8FUOJ42HuiTl5ojrrGp9SVn8fzCi1NQ2dQ/formResponse?submit=Submit&usp=pp_url&entry.1751208828=magic&entry.798253037=
+publickey: |
+    -----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAquYU7gGa7s3d5SDXYHwcsKzbyU/P0GZjJp2ndTSjqhsSFVvpz39ITK1pMhAxWKBs1CqKfxq/x0QSbMmR1fErXAeYQbrNBI1M3R97Gh50u8aBEEQDLCs8iOxc940lLbPrDgVNms81IxnSub88vqRUgQ87/VXQsY6syhLGWVksfMQEeSvwTS0TsvDbbcltAoRAWcGcRBUr4iTr8DDhYOQpG5iKYNiwqCPlIPFWLcc80tW3ngggRLU1kKkybIV9znYM8BFj01YfkfHKkASm2LwY7XeXai0SuFm5iPwfcoqNhjWkVmvuNDFvoD19S9c2U/JaMwoisTvKUZjRiQYwUiXJ9wIDAQAB
+    -----END PUBLIC KEY-----
+canvascourseid: 18818
 
-pubkey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe+zW9A86dMRe7BbTKcU0dj9ig5MYDozpHjBXb07OXKI5/r8kvcg+/VH1AzC0/6yAYcZ4+uU07udEItnC47SdDvgsPa8QXdfRiWilmc5mu41gHjZmjPalD1VvS9rHzBE86z2VRsaS5uaDQ/AdtbY8eA7H4KX0g+qIj2LeUQ8wIlwIDAQAB
-
-
-facultyemail: "ctralie@ursinus.edu"
 
 # Reading Files
 include:

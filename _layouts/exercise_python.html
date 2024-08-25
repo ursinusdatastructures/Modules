@@ -1,7 +1,11 @@
 ---
 layout: python
 
-formprocessordirections: "Clicking Run below will check your work and, if it passes, will submit your work automatically. <strong>This should be reflected on canvas in a couple of minutes</strong>"
+formprocessor: "https://mathcs.ursinus.edu:8192/"
+enctype: "application/x-www-form-urlencoded"
+facultyemail: "ctralie@ursinus.edu"
+
+formprocessordirections: "Clicking Run below will check your work and, if it passes, will submit your work automatically. <strong>If you are not on the campus network, you must be connected to the VPN for submission to be successful!  You will receive a copy of your code via e-mail, so you'll know that it was submitted if you receive that e-mail!</strong>  VPN access requires Multi-Factor Authentication, which sends you a code when you log into the network.  Instructions on configuring these for your account can be found <a href=\"https://www.ursinus.edu/offices/information-technology/technology-support/hardware-and-software-help/remote-connections-and-vpn/\">here</a>."
 
 submitformlinkdirections: "Clicking Run below will check your work and, if it passes, make a page appear above that you can use to submit your work or with further instructions."
 
@@ -11,7 +15,6 @@ mynetid: ctralie
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/jsencrypt.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/skel.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/util.js"></script>
 <script src="{{site.baseurl}}/assets/js/main.js"></script>
@@ -177,8 +180,6 @@ mynetid: ctralie
         </script>
 
         <script>
-        const crypt = new JSEncrypt();
-        crypt.setPublicKey("{{ site.pubkey }}");
         let canvas = document.getElementById("pscanvas");
         let correctArea = document.getElementById("correctArea");
         let correctlyAnswered = false;
@@ -216,7 +217,7 @@ mynetid: ctralie
         <!-- https://stackoverflow.com/questions/7542586/new-formdata-application-x-www-form-urlencoded -->
         function urlencodeFormData(fd){
             var s = '';
-            function encode(s){ return encodeURIComponent(s); }
+            function encode(s){ return encodeURIComponent(s).replace(/%20/g,'+'); }
             for(var pair of fd.entries()){
                 if(typeof pair[1]=='string'){
                     s += (s?'&':'') + encode(pair[0])+'='+encode(pair[1]);
@@ -231,33 +232,42 @@ mynetid: ctralie
          * @param {boolean} halfcredit Whether this is a half credit submission
          */
          function postCode(vpnwarn, halfcredit) {
-            {% if site.formprocessor and site.formprocessor != false %}
-            submitCode = '';
+            <!-- Setting a layout.formprocessor will send a POST request to a form processor -->
+            {% if layout.formprocessor and layout.formprocessor != false %}
+            submitcode = '';
             
             for (var i in editors) {
-                submitCode += editors[i].getValue();
-                submitCode += "\n\n";
+                submitcode += editors[i].getValue();
+                submitcode += "\n\n";
             }
+            
+            var xhttp = new XMLHttpRequest();
+            xhttp.onerror = function(e){
+                if (vpnwarn) {
+                    alert("Unable to submit.  Are you connected to the VPN?  Please try to submit again!");
+                }
+            };
 
-            let payload = {
-                magic: "ursinus",
-                title: "{{ page.title | strip }}",
-                studentnetid: document.getElementById("studentnetid").value,
-                code: submitCode
-            }
+            xhttp.open("POST", "{{ layout.formprocessor | strip }}", true)
+            xhttp.setRequestHeader("Content-type", "{{ layout.enctype | strip }}");
+            
+            var formdata = new FormData();
+            formdata.append("facultyemail", "{{ layout.facultyemail | strip }}"); // required
+            formdata.append("magic", "ursinus"); // required
+            formdata.append("title", "{{ page.title | strip }}"); // required
+            formdata.append("studentnetid", document.getElementById("studentnetid").value); //required
+            formdata.append("code", submitcode);
             {% if page.canvasasmtid %}
-            payload.canvasasmtid = {{ page.canvasasmtid }};
+            formdata.append("canvasasmtid", "{{page.canvasasmtid}}");
             {% endif %}
             {% if page.canvaspoints %}
-            payload.canvaspoints = {{ page.canvaspoints }};
+            formdata.append("canvaspoints", "{{page.canvaspoints}}");
             {% endif %}
             if (halfcredit) {
-                payload.canvashalfcredit = true;
+                formdata.append("canvashalfcredit", true);
             }
-            payload = JSON.stringify(payload);
             
-            window.open("{{site.formprocessor}}"+payload);
-                       
+            xhttp.send(urlencodeFormData(formdata));                    
             {% endif %}
         }
 
