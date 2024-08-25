@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "Graphs/Exercise1"
 title: "CS 271: Graph Degree"
 excerpt: "CS 271: Graph Degree"
@@ -29,7 +30,7 @@ processor:
         pos.includes("0_0")
       feedback: "Try again.  It looks like you're still returning an average degree of 0"
 files:
-  - filename: "Tree Code"
+  - filename: "student.py"
     name: tree
     ismain: false
     isreadonly: false
@@ -65,7 +66,7 @@ files:
                   return deg
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -82,4 +83,6 @@ files:
         graph.add_edge(1, 3)
         s += "_{}".format(graph.get_avg_degree())
         print(s)
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---

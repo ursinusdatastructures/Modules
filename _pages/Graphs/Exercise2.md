@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "Graphs/Exercise2"
 title: "CS 271: Graph 2 hops"
 excerpt: "CS 271: Graph 2 Hops"
@@ -32,7 +33,7 @@ processor:
         pos.includes("[0, 1, 2, 3, 4]_[1, 4, 5]")
       feedback: "Try again.  It looks like you're only returning exactly two hops!  Be sure also to include the 1 hop vertices, which you can get directly from the neighbors"
 files:
-  - filename: "Tree Code"
+  - filename: "student.py"
     name: tree
     ismain: false
     isreadonly: false
@@ -67,7 +68,7 @@ files:
                   return reachable
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -86,4 +87,6 @@ files:
         s = "{}".format(sorted(graph.get_reachable_2_hops(0)))
         s += "_{}".format(sorted(graph.get_reachable_2_hops(5)))
         print(s)
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---

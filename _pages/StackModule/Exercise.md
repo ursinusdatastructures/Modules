@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "/StackModule/Exercise"
 title: "CS 271: Stacks And Queues Exercise"
 excerpt: "CS 271: Stacks And Queues Exercise"
@@ -42,7 +43,7 @@ processor:
         pos.includes("1.2.3.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19") && !allLess(steps, gtsteps, 2)
       feedback: "Try again.  You appear to be doing more than O(N) steps in some of your operations"
 files:
-  - filename: "Stack Implementation with Linked List (Provided)"
+  - filename: "stack.py"
     name: stack
     ismain: false
     isreadonly: true
@@ -105,7 +106,7 @@ files:
               return len(self.L)
 
 
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -131,6 +132,7 @@ files:
                 in O(N) time using both stacks
                 """
                 ## TODO: Fill this in
+                ## Make sure you've looded at stack.py first
                 pass
             
             def __len__(self):
@@ -138,7 +140,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -158,4 +160,5 @@ files:
                 print(".", end='')
 
         
+openFilesOnLoad: ["main.py", "stack.py", "student.py"]
 ---

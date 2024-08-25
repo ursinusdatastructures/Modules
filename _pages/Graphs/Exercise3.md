@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "Graphs/Exercise3"
 title: "CS 271: Conversion To Adjacency Matrix"
 excerpt: "CS 271: Conversion To Adjacency Matrix"
@@ -28,7 +29,7 @@ processor:
         pos.includes("[[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]_[[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]")
       feedback: "Try again.  It looks like you're still returning a matrix of all 0s"
 files:
-  - filename: "Tree Code"
+  - filename: "student.py"
     name: tree
     ismain: false
     isreadonly: false
@@ -62,7 +63,7 @@ files:
                   return matrix
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -81,4 +82,6 @@ files:
         graph.add_edge(3, 5)
         s += "_{}".format(graph.get_matrix())
         print(s)
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---

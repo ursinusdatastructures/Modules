@@ -1,5 +1,6 @@
 ---
-layout: exercise_pyodide_new
+layout: exercise
+language: pyodide
 permalink: "RadixFisherYates/Exercise2"
 title: "CS 271: Fisher-Yates Shuffling Code"
 excerpt: "CS 271: Fisher-Yates Shuffling Code"
@@ -30,7 +31,7 @@ processor:
       feedback: "Try again.  You're very close!  But np.random.randint(N-i-1) only returns indices up to N-i-2"
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -54,7 +55,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -65,4 +66,5 @@ files:
         shuffle(arr)
         arr = "{}".format(arr)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

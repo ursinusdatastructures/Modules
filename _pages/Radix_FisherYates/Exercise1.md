@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "RadixFisherYates/Exercise1"
 title: "CS 371: Sorting Module 2: Exercise 1: Radix Sort"
 excerpt: "CS 371: Sorting Module 2: Exercise 1: Radix Sort"
@@ -30,7 +31,7 @@ processor:
         pos.includes("[6, 13, 21, 44, 0, 0, 0, 0].[1, 15, 0, 0, 0, 0]")
       feedback: "Try again.  It looks like you haven't finished copying over leftover elements from the first or second halves in the merge"
 files:
-  - filename: "Radix"
+  - filename: "radix.py"
     name: radixsort
     ismain: false
     isreadonly: false
@@ -108,7 +109,7 @@ files:
                             arr[i] = staging[i]
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -121,4 +122,5 @@ files:
         radixsort(arr)
         print(arr)
         
+openFilesOnLoad: ["main.py", "radix.py"]
 ---
