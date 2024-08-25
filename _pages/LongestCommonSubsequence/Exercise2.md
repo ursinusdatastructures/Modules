@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "LCSModule/Exercise2"
 title: "CS 271: Longest Common Subsequence: Exercise 2"
 excerpt: "CS 271: Longest Common Subsequence: Exercise 2"
@@ -35,7 +36,7 @@ processor:
       feedback: "Try again.  Close!  Be sure to prepend <code>s1[i]</code> to <code>seq</code> if <code>s1[i] == s2[j]</code>"
     
 files:
-  - filename: "LCS"
+  - filename: "lcs.py"
     name: lcs
     ismain: false
     isreadonly: false
@@ -103,7 +104,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "test.py"
     ismain: true
     name: main
     isreadonly: true
@@ -113,5 +114,5 @@ files:
         s2 = "Ursinus college students are great students"
         print("|" + LCS(s1, s2) + "|")
         
-        
+openFilesOnLoad: ["main.py", "lcs.py"]
 ---

@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "LCSModule/Exercise1"
 title: "CS 271: Longest Common Subsequence: Exercise 1"
 excerpt: "CS 271: Longest Common Subsequence: Exercise 1"
@@ -29,7 +30,7 @@ processor:
         pos.includes("6:set().41:set().94:set()")
       feedback: "Try again.  It looks like you aren't initiating the recursive calls"
 files:
-  - filename: "LCS"
+  - filename: "lcs.py"
     name: lcs
     ismain: false
     isreadonly: false
@@ -61,7 +62,7 @@ files:
               return res
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -73,5 +74,5 @@ files:
         s2 = "Ursinus college students are great students"
         print(LCS(s1, s2, {}))
         
-        
+openFilesOnLoad: ["main.py", "lcs.py"]
 ---
