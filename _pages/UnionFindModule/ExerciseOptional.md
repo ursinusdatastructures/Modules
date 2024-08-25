@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "UnionFindModule/OptionalExercise"
 title: "CS 271: Union Find Optional Exercise"
 excerpt: "CS 271: Union Find Optional Exercise"
@@ -96,5 +97,6 @@ files:
         s.union(0, 1)
         print(s.find(0, 7), end='.')
         print(s.find(1, 9))
-        
+   
+openFilesOnLoad: ["main.py", "student.py"]
 ---

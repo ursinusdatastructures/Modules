@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "UnionFindModule/Exercise1"
 title: "CS 271: Disjoint Set Naive Implementation"
 excerpt: "CS 271: Disjoint Set Naive Implementation"
@@ -31,7 +32,7 @@ processor:
       feedback: "Try again.  Somehow you're still returning False for all of the finds, but some of them should be True." 
  
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -104,7 +105,7 @@ files:
                 pass
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -123,4 +124,5 @@ files:
         print(s.find(0, 7), end='.')
         print(s.find(1, 9))
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

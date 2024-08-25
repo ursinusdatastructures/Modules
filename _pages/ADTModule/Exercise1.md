@@ -1,5 +1,6 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: pyodide
 permalink: "/ADTModule/Exercise1"
 title: "CS 271: ADTs: ArraySet remove"
 excerpt: "CS 271: ADTs: ArraySet remove"
@@ -22,14 +23,14 @@ processor:
   incorrectfeedback: "Try again"
   submitformlink: false
   correctcheck: |
-    pyodide.globals.res.includes("True.False.False.True.True.True.True.False.True.True.True.True.True.True.True.True.True.True.True.False")
+    pyodide.globals.get("res").includes("True.False.False.True.True.True.True.False.True.True.True.True.True.True.True.True.True.True.True.False")
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res.includes("True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True")
+        pyodide.globals.get("res").includes("True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True.True")
       feedback: "Try again.  It looks like you haven't changed <code>self.arr</code> yet.  If you made a new array, be sure to overwrite self.arr with that new array!" 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -94,7 +95,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "test.py"
     ismain: true
     name: main
     isreadonly: true
@@ -111,4 +112,5 @@ files:
         for x in range(20):
             res = res + "{}.".format(x in myset)
         
+openFilesOnLoad: ["main.py", "test.py"]
 ---
