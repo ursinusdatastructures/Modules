@@ -28,7 +28,7 @@ processor:
       feedback: "Try again.  Somehow you're still returning False for all of the finds, but some of them should be True." 
  
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -79,7 +79,7 @@ files:
                             self._ids[k] = id_i
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true

@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "/EditDistanceModule/Exercise1"
 title: "CS 271: Edit Distance Module: Recursive String Edit Distance"
 excerpt: "CS 271: Edit Distance Module: Recursive String Edit Distance"
@@ -32,7 +33,7 @@ processor:
       feedback: "Try again.  Be careful to only add 1 to the case where both are chopped off the end if they don't match"
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -73,7 +74,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -83,5 +84,6 @@ files:
         res += "{}.".format(edit("scho", "fool"))
         res += "{}".format(edit("logy", "grap"))
         print(res)
-        
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---

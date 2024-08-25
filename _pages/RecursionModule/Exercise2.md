@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "/RecursionModule/Exercise2"
 title: "CS 271: Recursion Module: Ackermann Memoization"
 excerpt: "CS 271: Recursion Module: Ackermann Memoization"
@@ -28,7 +29,7 @@ processor:
         pos.includes("9.44_61.2432_13.107")
       feedback: "Try again.  It looks like you're not using any memoization yet.  Are you remembering to check to see if (m, n) is already in the memory?  Are you saving (m, n) in memory the first time you have to compute it?"
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -50,7 +51,7 @@ files:
               return res
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -66,4 +67,5 @@ files:
         print(A(4, 0, counts, {}), end=".")
         print(counts[0])
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

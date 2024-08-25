@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "/RecursionModule/Exercise1"
 title: "CS 271: Recursion Module: Towers of Hanoi Solution Count"
 excerpt: "CS 271: Recursion Module: Towers of Hanoi Solution Count"
@@ -29,7 +30,7 @@ processor:
         pos.includes("0.0.0")
       feedback: "Try again.  You need to return the frequency in hz, not 0"
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -57,7 +58,7 @@ files:
             return res
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -66,5 +67,5 @@ files:
         for i in range(1, 10):
             print("{}.".format(h(i)), end='')
         
-        
+openFilesOnLoad: ["main.py", "student.py"]
 ---

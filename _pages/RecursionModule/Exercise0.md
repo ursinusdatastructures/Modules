@@ -1,5 +1,6 @@
 ---
-layout: exercise_python
+layout: exercise
+language: python
 permalink: "/RecursionModule/Exercise0"
 title: "CS 271: Dictionary Exercise"
 excerpt: "CS 271: Dictionary Exercise"
@@ -29,7 +30,7 @@ processor:
         pos.includes("0.0.0")
       feedback: "Try again.  You need to return the frequency in hz, not 0"
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -49,7 +50,7 @@ files:
             pass
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -59,5 +60,5 @@ files:
         grade_chris(grades)
         print(grades["chris"])
 
-        
+openFilesOnLoad: ["main.py", "student.py"]        
 ---

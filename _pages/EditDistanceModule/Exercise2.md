@@ -1,5 +1,6 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: pyodide
 permalink: "/EditDistanceModule/Exercise2"
 title: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
 excerpt: "CS 371: Edit Distance Module: Edit Distance Dynamic Programming"
@@ -20,20 +21,18 @@ processor:
   correctfeedback: "Correct!!" 
   incorrectfeedback: "Try again"
   submitformlink: false
-  feedbackprocess: | 
-    feedback.setValue(pyodide.globals.res);
   correctcheck: |
-    pyodide.globals.res == "3.4.5"
+    pyodide.globals.get("res") == "3.4.5"
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == "0.0.0"
+        pyodide.globals.get("res") == "0.0.0"
       feedback: "Try again.  It looks like you're not filling in all of the costs"
     - incorrectcheck: |
-        pyodide.globals.res == "5.6.10"
+        pyodide.globals.get("res") == "5.6.10"
       feedback: "Try again.  Be careful to only add 1 to the case where both are chopped off the end if they don't match"
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -72,7 +71,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -83,4 +82,5 @@ files:
         res += "{}".format(edit("topology", "topography"))
         print(res)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
