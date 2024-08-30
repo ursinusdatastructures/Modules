@@ -112,5 +112,5 @@ files:
         for x in range(20):
             res = res + "{}.".format(x in myset)
         
-openFilesOnLoad: ["main.py", "test.py"]
+openFilesOnLoad: ["test.py", "student.py"]
 ---
