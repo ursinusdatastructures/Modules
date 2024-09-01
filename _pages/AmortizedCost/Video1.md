@@ -6,6 +6,7 @@ excerpt: "CS 271: "
 
 info:
   comments: "true"
+  prev: "../BinarySearch/Exercise1"
   next: "./Video2"
 ---
 
