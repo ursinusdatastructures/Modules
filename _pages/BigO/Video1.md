@@ -9,7 +9,7 @@ info:
 ---
 
 <p>
-Watch the video below, and complete the exercises at <a href = "https://ursinus.instructure.com/courses/16205/quizzes/22544">this link</a> when you're finished
+Watch the video below, and complete the exercises at <a href = "https://ursinus.instructure.com/courses/18044/quizzes/26757">this link</a> when you're finished
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H9pT2GNUe5g?si=-zQMVN2VPS5nm_gr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
