@@ -20,6 +20,10 @@ You can also watch this video if you'd like for another perspective
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0oDAlMwTrLo?si=ESw10se4eyQN0pyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<p>
+You may also find the notes at <a href = "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart">this link</a> helpful to supplement all of the above.
+</p>
+
 
 <h2>Notes</h2>
 
