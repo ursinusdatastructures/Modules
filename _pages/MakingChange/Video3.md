@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /MakingChange/Video3
-title: "CS 371: Dynamic Programming And Backtracing: Greedy Solutions"
-excerpt: "CS 371: Dynamic Programming And Backtracing: : Greedy Solutions"
+title: "CS 271: Dynamic Programming And Backtracing: Greedy Solutions"
+excerpt: "CS 271: Dynamic Programming And Backtracing: : Greedy Solutions"
 
 info:
   comments: "true"

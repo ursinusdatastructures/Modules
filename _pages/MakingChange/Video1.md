@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /MakingChange/Video1
-title: "CS 371: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
-excerpt: "CS 371: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
+title: "CS 271: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
+excerpt: "CS 271: Dynamic Programming And Backtracing: Edit Distance Recursive Backtracing"
 
 info:
   comments: "true"

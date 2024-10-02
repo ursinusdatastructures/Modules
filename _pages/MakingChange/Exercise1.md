@@ -2,8 +2,8 @@
 layout: exercise
 language: "python"
 permalink: "MakingChange/Exercise1"
-title: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
-excerpt: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
+title: "CS 271: Dynamic Programming And Backtracing: Exercise 1"
+excerpt: "CS 271: Dynamic Programming And Backtracing: Exercise 1"
 canvasasmtid: "216982"
 canvaspoints: "2"
 canvashalftries: 5

@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /MakingChange/Video2
-title: "CS 371: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
-excerpt: "CS 371: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
+title: "CS 271: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
+excerpt: "CS 271: Dynamic Programming And Backtracing: Making Change with Dynamic Programming"
 
 info:
   comments: "true"
