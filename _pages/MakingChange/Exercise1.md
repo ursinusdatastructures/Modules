@@ -1,9 +1,10 @@
 ---
-layout: exercise_python
+layout: exercise
+language: "python"
 permalink: "MakingChange/Exercise1"
 title: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
 excerpt: "CS 371: Dynamic Programming And Backtracing: Exercise 1"
-canvasasmtid: "143850"
+canvasasmtid: "216982"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -12,7 +13,7 @@ info:
   prev: "./Video2"
   next: "./Video3"
   points: 2
-  instructions: "<p>The code below includes the iterative dynamic programming approach we talked about for making change, which includes memory of the optimal coin choices to make at each step.  Complete the <code>get_change_coins</code> method to recursively backtrace and enumerate all possibilities of making change optimally.  The base case has already been taken care of, you just need to initiate recursion on all possible coins to choose at a particular step.  To show the algorithm off a little more, the test cases include a 3 cent coin, which leads to more than one possibility on some of the cases.</p>"
+  instructions: "<p>The code below includes the iterative dynamic programming approach we talked about for making change in the file <code>mincoins.py</code>, which includes memory of the optimal coin choices to make at each step.  Complete the <code>get_change_coins</code> method to recursively backtrace and enumerate all possibilities of making change optimally.  The base case has already been taken care of, you just need to initiate recursion on all possible coins to choose at a particular step.  To show the algorithm off a little more, the test cases include a 3 cent coin, which leads to more than one possibility on some of the cases.</p>"
   goals:
     - Recursively backtrace optimal solutions in dynamic programming using stacks
     
@@ -29,55 +30,7 @@ processor:
         pos.includes("6:set().41:set().94:set()")
       feedback: "Try again.  It looks like you aren't initiating the recursive calls"
 files:
-  - filename: "Get Change Backtracing (Student Code)"
-    name: mincoinsbacktrace
-    ismain: false
-    isreadonly: false
-    isvisible: true
-    height: 680
-    code: | 
-          def get_change_coins(optimal, chosen_coins, amt, all_ways):
-              """
-              Recursively backtrace through optimal coin choices to see
-              all of the ways of making changes
-              Parameters
-              ----------
-              optimal: list of list
-                  A list of optimal coin choices, indexed by amount
-              chosen_coins: list
-                  All of the coins considered so far
-              amt: int
-                  The current amount that's being turned into change
-              all_ways: set
-                  A set of strings describing all unique ways to make change.
-                  Returned by reference
-              """
-              if len(optimal[amt]) == 0:
-                  # Stopping condition: No more coins left to look at
-                  # Make a dictionary of amount:count for all chosen coins
-                  counts = {amt:1} # We know that this amount is one of the coins
-                  for coin in chosen_coins:
-                      if not coin in counts:
-                          counts[coin] = 0
-                      counts[coin] += 1
-                  # Format this nicely in a string sorted in increasing
-                  # order of coin value
-                  way = ""
-                  for i, coin in enumerate(sorted(counts.keys())):
-                      way += "{}x{}".format(coin, counts[coin])
-                      if i < len(counts)-1:
-                          way += ","
-                  all_ways.add(way)
-              else:
-                  for c in optimal[amt]:
-                      ## TODO: Fill this in
-                      ## 1. Put this coin on the back of the list of chosen coins
-                      ## 2. Make a recursive call 
-                      ## 3. Pop this coin off of the back of the list of chosen coins
-                      pass
-              
-
-  - filename: "Min Coins Needed (Provided)"
+  - filename: "mincoins.py"
     name: mincoinsneededdyn
     ismain: false
     isreadonly: true
@@ -122,7 +75,57 @@ files:
               get_change_coins(optimal, chosen_coins, amt, all_ways)
               return mem[-1], all_ways
 
-  - filename: "Test Code Block"
+  - filename: "student.py"
+    name: mincoinsbacktrace
+    ismain: false
+    isreadonly: false
+    isvisible: true
+    height: 680
+    code: | 
+          def get_change_coins(optimal, chosen_coins, amt, all_ways):
+              """
+              Recursively backtrace through optimal coin choices to see
+              all of the ways of making changes
+              Parameters
+              ----------
+              optimal: list of list
+                  A list of optimal coin choices, indexed by amount
+              chosen_coins: list
+                  All of the coins considered so far
+              amt: int
+                  The current amount that's being turned into change
+              all_ways: set
+                  A set of strings describing all unique ways to make change.
+                  Returned by reference
+              """
+              if len(optimal[amt]) > 0:
+                  ## Recusviely try each possible optimal coin in turn
+                  for c in optimal[amt]:
+                      ## TODO: Fill this in
+                      ## 1. Put this coin on the back of the list of chosen coins
+                      ## 2. Make a recursive call with the amount of change that's
+                      ##    left after using one of the optimal coin choices
+                      ## 3. Pop this coin off of the back of the list of chosen coins
+                      pass
+              
+              else:
+                  # Stopping condition: No more coins left to look at
+                  # Make a dictionary of amount:count for all chosen coins
+                  counts = {amt:1} # We know that this amount is one of the coins
+                  for coin in chosen_coins:
+                      if not coin in counts:
+                          counts[coin] = 0
+                      counts[coin] += 1
+                  # Format this nicely in a string sorted in increasing
+                  # order of coin value
+                  way = ""
+                  for i, coin in enumerate(sorted(counts.keys())):
+                      way += "{}x{}".format(coin, counts[coin])
+                      if i < len(counts)-1:
+                          way += ","
+                  all_ways.add(way)
+
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -133,5 +136,5 @@ files:
             cost, ways = min_coins_needed_dyn(coins, amt)
             print("{}:{}".format(amt, ways), end='.')
         
-        
+openFilesOnLoad: ["main.py", "mincoins.py", "student.py"]       
 ---
