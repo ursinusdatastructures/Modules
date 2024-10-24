@@ -22,7 +22,7 @@ processor:
   incorrectfeedback: "Try again"
   submitformlink: false
   feedbackprocess: | 
-    feedback.setValue(pyodide.globals.get("arr"));
+    logToConsole(pyodide.globals.get("arr"));
   correctcheck: |
     pyodide.globals.get("arr") == "[2 8 4 9 1 6 7 3 0 5]"
   incorrectchecks:
